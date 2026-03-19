@@ -1,0 +1,51 @@
+# Web Framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+pydantic>=2.5.0
+python-multipart>=0.0.6
+
+# Async Support
+aiohttp>=3.9.0
+httpx>=0.26.0
+websockets>=12.0
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.26.0
+
+# Financial Data
+akshare>=1.12.0
+baostock>=0.8.9
+yfinance>=0.2.35
+requests>=2.31.0
+
+# LLM Integration
+openai>=1.10.0
+google-generativeai>=0.3.0
+z-ai-web-dev-sdk>=1.0.0
+
+# LangGraph & LangChain
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain>=0.3.0
+
+# Database
+aiosqlite>=0.19.0
+prisma>=0.11.0
+
+# Utilities
+python-dotenv>=1.0.0
+loguru>=0.7.2
+tenacity>=8.2.3
+orjson>=3.9.0
+backoff>=2.2.0
+
+# Task Queue
+asyncio-pool>=0.6.0
+
+# Technical Analysis
+ta-lib>=0.4.28
+pandas-ta>=0.3.14b
+
+# Date/Time
+python-dateutil>=2.8.2

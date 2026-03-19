@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model WeeklyData {
+  id        String   @id @default(uuid())
+  weekDate  DateTime @unique
+  dataHash  String?  // 数据Hash，用于检测重复数据
+  stocks    Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model AllStocks {
+  id         String   @id @default(uuid())
+  updateDate DateTime
+  stocks     Json
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+}
+
+model MomentumHistory {
+  id        String   @id @default(uuid())
+  weekDate  DateTime
+  industry  String
+  score     Float
+  count     Int
+  total     Int
+  rank      Int?
+  createdAt DateTime @default(now())
+
+  @@unique([weekDate, industry])
+  @@index([weekDate])
+  @@index([industry])
+}
+
+model Fundamentals {
+  code          String   @id
+  name          String
+  industry      String?
+  revenueGrowth Float?
+  profitGrowth  Float?
+  grossMargin   Float?
+  roe           Float?
+  debtRatio     Float?
+  pe            Float?
+  pb            Float?
+  fundHolding   Float?
+  northHolding  Float?
+  goodwill      Float?
+  pledgeRatio   Float?
+  tags          Json?
+  financialData Json?
+  updatedAt     DateTime @default(now())
+}
+
+model SystemConfig {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+
+model IndustryComponents {
+  id        String   @id @default(uuid())
+  industry  String   @unique
+  count     Int
+  updatedAt DateTime @updatedAt
+}
+
+// 最强逻辑 - 政策事件表
+model PolicyEvent {
+  id            String   @id @default(uuid())
+  title         String
+  source        String   // 来源
+  publishDate   DateTime
+  industry      String   // 相关行业
+  content       String?  // 内容摘要
+  importance    Int      @default(0)  // 重要程度 1-5
+  sentiment     Float?   // 情感得分 -1到1
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([industry])
+  @@index([publishDate])
+}
+
+// 最强逻辑 - 行业评分表
+model IndustryLogicScore {
+  id              String   @id @default(uuid())
+  industry        String
+  weekDate        DateTime
+  policyScore     Float    @default(0)   // 政策催化分 35%
+  earningsScore   Float    @default(0)   // 业绩预期分 30%
+  capitalScore    Float    @default(0)   // 资金流向分 20%
+  institutionScore Float   @default(0)   // 机构关注分 15%
+  totalScore      Float    @default(0)   // 综合得分
+  policyEvents    Json?    // 关联政策事件
+  analysis        String?  // AI分析摘要
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@unique([industry, weekDate])
+  @@index([weekDate])
+  @@index([totalScore])
+}
