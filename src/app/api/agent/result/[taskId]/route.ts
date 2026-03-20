@@ -4,6 +4,7 @@ const AGENT_SERVICE_URL = process.env.AGENT_SERVICE_URL || 'http://localhost:800
 
 // Agent名称映射 - 后端名称到前端名称
 const AGENT_NAME_MAP: Record<string, string> = {
+  // 带后缀的映射
   'technical_analyst_agent': 'technical_analysis',
   'fundamentals_agent': 'fundamental_analysis',
   'sentiment_agent': 'sentiment_analysis',
@@ -15,7 +16,18 @@ const AGENT_NAME_MAP: Record<string, string> = {
   'portfolio_management_agent': 'portfolio_management',
   'market_data_agent': 'market_data',
   'macro_analyst_agent': 'macro_analysis',
-  'macro_news_agent': 'macro_news'
+  'macro_news_agent': 'macro_news',
+  // 不带后缀的映射（保持一致）
+  'market_data': 'market_data',
+  'technical_analysis': 'technical_analysis',
+  'fundamental_analysis': 'fundamental_analysis',
+  'sentiment_analysis': 'sentiment_analysis',
+  'valuation_analysis': 'valuation_analysis',
+  'bull_researcher': 'bull_researcher',
+  'bear_researcher': 'bear_researcher',
+  'debate_room': 'debate_room',
+  'risk_management': 'risk_management',
+  'portfolio_management': 'portfolio_management',
 }
 
 export async function GET(

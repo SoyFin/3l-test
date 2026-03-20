@@ -76,14 +76,8 @@ function MultiIndustryTrendChart({
     })
     return Array.from(weeks).sort((a, b) => new Date(a).getTime() - new Date(b).getTime())
   }, [trendData])
-  if (allWeeks.length < 2 || ranking.length === 0) {
-    return (
-      <div className="text-xs text-muted-foreground text-center py-2">
-        需要多周数据才能显示走势
-      </div>
-    )
-  }
-  // 构建各行业的数据点
+
+  // 构建各行业的数据点 - 移到条件判断之前，保持Hooks顺序一致
   const chartData = useMemo(() => {
     const maxScore = 7
     const minScore = 0
@@ -94,7 +88,7 @@ function MultiIndustryTrendChart({
     return ranking.slice(0, 10).map((item, index) => {
       const industryData = trendData[item.industry] || []
       const dataMap = new Map(industryData.map(d => [d.weekDate, d.score]))
-      
+
       const points = allWeeks.map((week, i) => {
         const rawScore = dataMap.get(week) ?? 0
         // 确保分数在0-7范围内，防止溢出
@@ -103,7 +97,7 @@ function MultiIndustryTrendChart({
         const y = padding + (1 - (score - minScore) / range) * chartHeight
         return { x, y, score, week }
       })
-      const pathD = points.map((p, i) => 
+      const pathD = points.map((p, i) =>
         `${i === 0 ? 'M' : 'L'} ${p.x} ${p.y}`
       ).join(' ')
       return {
@@ -115,6 +109,15 @@ function MultiIndustryTrendChart({
       }
     })
   }, [trendData, ranking, allWeeks, width, height, showLabels])
+
+  // 条件返回放在所有Hooks之后
+  if (allWeeks.length < 2 || ranking.length === 0) {
+    return (
+      <div className="text-xs text-muted-foreground text-center py-2">
+        需要多周数据才能显示走势
+      </div>
+    )
+  }
   // 格式化周日期
   const formatWeekDate = (dateStr: string) => {
     try {

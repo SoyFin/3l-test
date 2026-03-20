@@ -109,3 +109,22 @@ model IndustryLogicScore {
   @@index([weekDate])
   @@index([totalScore])
 }
+
+// 任务状态存储（替代全局变量）
+model PolicyTask {
+  id              String   @id @default(uuid())
+  batchId         String   @unique
+  status          String
+  totalTasks      Int      @default(0)
+  completedTasks  Int      @default(0)
+  failedTasks     Int      @default(0)
+  currentIndustry String?
+  progress        Float    @default(0)
+  paused          Boolean  @default(false)
+  error           String?
+  industries      Json?
+  currentIndex    Int      @default(0)
+  startTime       DateTime?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

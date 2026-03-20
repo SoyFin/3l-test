@@ -62,21 +62,14 @@ export default function DataUploadDialog({
   const weeklyInputRef = useRef<HTMLInputElement>(null)
   const allStocksInputRef = useRef<HTMLInputElement>(null)
 
-  // 初始化日期为最近的周五
+  // 初始化日期为今天
   useEffect(() => {
     if (open && !selectedDate) {
       const now = new Date()
-      const dayOfWeek = now.getDay()
-      const friday = new Date(now)
-      if (dayOfWeek === 0) {
-        friday.setDate(friday.getDate() - 2)
-      } else if (dayOfWeek === 6) {
-        friday.setDate(friday.getDate() - 1)
-      } else if (dayOfWeek < 5) {
-        friday.setDate(friday.getDate() - (dayOfWeek + 2))
-      }
-      friday.setHours(0, 0, 0, 0)
-      setSelectedDate(friday.toISOString().split('T')[0])
+      const year = now.getFullYear()
+      const month = String(now.getMonth() + 1).padStart(2, '0')
+      const day = String(now.getDate()).padStart(2, '0')
+      setSelectedDate(`${year}-${month}-${day}`)
     }
   }, [open, selectedDate])
 
@@ -94,7 +87,7 @@ export default function DataUploadDialog({
       const data = await response.json()
       if (data.history) {
         setWeeklyHistory(data.history.map((item: any) => ({
-          weekDate: new Date(item.weekDate).toISOString().split('T')[0],
+          weekDate: item.weekDate, // 保持原始格式
           stockCount: (item.stocks as any[])?.length || 0,
           createdAt: item.createdAt
         })))
@@ -279,23 +272,30 @@ export default function DataUploadDialog({
     }
   }
 
+  // 格式化日期为 YYYY-MM-DD（本地时间，避免时区问题）
+  const formatDate = (d: Date) => {
+    const year = d.getFullYear()
+    const month = String(d.getMonth() + 1).padStart(2, '0')
+    const day = String(d.getDate()).padStart(2, '0')
+    return `${year}-${month}-${day}`
+  }
+
   // 生成日历网格
   const calendarDays = useMemo(() => {
     const firstDay = new Date(calendarYear, calendarMonth, 1)
     const lastDay = new Date(calendarYear, calendarMonth + 1, 0)
     const startPadding = firstDay.getDay() // 周日为0
     
-    const days: Array<{ date: string; isCurrentMonth: boolean; isFriday: boolean; hasData: boolean; stockCount?: number }> = []
+    const days: Array<{ date: string; isCurrentMonth: boolean; hasData: boolean; stockCount?: number }> = []
     
     // 上月填充
     for (let i = startPadding - 1; i >= 0; i--) {
       const d = new Date(calendarYear, calendarMonth, -i)
-      const dateStr = d.toISOString().split('T')[0]
+      const dateStr = formatDate(d)
       const historyItem = weeklyHistory.find(h => h.weekDate === dateStr)
       days.push({
         date: dateStr,
         isCurrentMonth: false,
-        isFriday: d.getDay() === 5,
         hasData: existingDates.has(dateStr),
         stockCount: historyItem?.stockCount
       })
@@ -304,12 +304,11 @@ export default function DataUploadDialog({
     // 当月日期
     for (let i = 1; i <= lastDay.getDate(); i++) {
       const d = new Date(calendarYear, calendarMonth, i)
-      const dateStr = d.toISOString().split('T')[0]
+      const dateStr = formatDate(d)
       const historyItem = weeklyHistory.find(h => h.weekDate === dateStr)
       days.push({
         date: dateStr,
         isCurrentMonth: true,
-        isFriday: d.getDay() === 5,
         hasData: existingDates.has(dateStr),
         stockCount: historyItem?.stockCount
       })
@@ -319,12 +318,11 @@ export default function DataUploadDialog({
     const remaining = 42 - days.length // 6行
     for (let i = 1; i <= remaining; i++) {
       const d = new Date(calendarYear, calendarMonth + 1, i)
-      const dateStr = d.toISOString().split('T')[0]
+      const dateStr = formatDate(d)
       const historyItem = weeklyHistory.find(h => h.weekDate === dateStr)
       days.push({
         date: dateStr,
         isCurrentMonth: false,
-        isFriday: d.getDay() === 5,
         hasData: existingDates.has(dateStr),
         stockCount: historyItem?.stockCount
       })
@@ -403,11 +401,8 @@ export default function DataUploadDialog({
                 
                 {/* 星期标题 */}
                 <div className="grid grid-cols-7 gap-1 mb-1">
-                  {['日', '一', '二', '三', '四', '五', '六'].map((d, i) => (
-                    <div key={d} className={cn(
-                      "text-center text-xs py-1",
-                      i === 5 ? "text-primary font-medium" : "text-muted-foreground"
-                    )}>
+                  {['日', '一', '二', '三', '四', '五', '六'].map((d) => (
+                    <div key={d} className="text-center text-xs py-1 text-muted-foreground">
                       {d}
                     </div>
                   ))}
@@ -419,23 +414,19 @@ export default function DataUploadDialog({
                     <button
                       key={index}
                       onClick={() => {
-                        if (day.isFriday) {
-                          setSelectedDate(day.date)
-                        }
+                        setSelectedDate(day.date)
                       }}
-                      disabled={!day.isFriday}
                       className={cn(
                         "relative aspect-square rounded text-xs flex flex-col items-center justify-center transition-colors",
                         !day.isCurrentMonth && "text-muted-foreground opacity-50",
-                        day.isFriday && "hover:bg-primary/20 cursor-pointer",
-                        !day.isFriday && "cursor-default",
+                        "hover:bg-primary/20 cursor-pointer",
                         selectedDate === day.date && "bg-primary text-primary-foreground",
                         day.hasData && selectedDate !== day.date && "bg-green-100 dark:bg-green-900/30",
-                        day.isFriday && selectedDate !== day.date && "border border-primary/30"
+                        !day.hasData && selectedDate !== day.date && "border border-transparent hover:border-primary/30"
                       )}
-                      title={day.isFriday ? (day.hasData ? `${day.date} (已有${day.stockCount}只股票)` : `${day.date} (点击选择)`) : ''}
+                      title={day.hasData ? `${day.date} (已有${day.stockCount}只股票)` : `${day.date} (点击选择)`}
                     >
-                      <span>{new Date(day.date).getDate()}</span>
+                      <span>{parseInt(day.date.split('-')[2])}</span>
                       {day.hasData && (
                         <span className={cn(
                           "absolute bottom-0.5 w-1.5 h-1.5 rounded-full bg-green-500",
@@ -452,8 +443,8 @@ export default function DataUploadDialog({
                     <span>已有数据</span>
                   </div>
                   <div className="flex items-center gap-1">
-                    <span className="w-3 h-3 border border-primary/30 rounded" />
-                    <span>周五可选</span>
+                    <span className="w-3 h-3 bg-primary rounded" />
+                    <span>选中日期</span>
                   </div>
                 </div>
               </div>
@@ -537,7 +528,7 @@ export default function DataUploadDialog({
                 
                 {/* 数据说明 */}
                 <div className="text-xs text-muted-foreground space-y-1 px-1">
-                  <p>• 点击日历中的周五选择日期</p>
+                  <p>• 点击日历中的任意日期选择</p>
                   <p>• 绿色圆点表示该日已有数据</p>
                   <p>• 上传会覆盖已有数据</p>
                 </div>
