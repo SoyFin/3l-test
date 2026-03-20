@@ -434,12 +434,17 @@ class LLMConfigRequest(BaseModel):
 async def update_llm_config(config: LLMConfigRequest):
     """
     更新LLM配置
-    
+
     从前端同步LLM提供商配置，支持动态更新API Key
     """
     global _runtime_llm_config
-    
+
     try:
+        # 构建 AI 配置字典
+        ai_config = {
+            "defaultProvider": config.default_provider or "zhipu",
+        }
+
         # 更新运行时配置
         if config.providers:
             for provider_name, provider_config in config.providers.items():
@@ -456,13 +461,26 @@ async def update_llm_config(config: LLMConfigRequest):
                     if env_key:
                         os.environ[env_key] = provider_config["api_key"]
                         logger.info(f"已设置 {env_key}")
-        
+
+                    # 添加到 AI 配置
+                    ai_config[provider_name] = {
+                        "apiKey": provider_config["api_key"]
+                    }
+
         if config.default_provider:
             _runtime_llm_config["default_provider"] = config.default_provider
-        
+
         if config.failover_order:
             _runtime_llm_config["failover_order"] = config.failover_order
-        
+
+        # 调用 set_ai_config 配置 openrouter_config 模块
+        try:
+            from src.tools.openrouter_config import set_ai_config
+            set_ai_config(ai_config)
+            logger.info(f"已同步 AI 配置到 openrouter_config: {config.default_provider}")
+        except Exception as e:
+            logger.warning(f"同步 AI 配置失败: {e}")
+
         # 重新初始化LLM客户端
         try:
             import utils.llm_client as llm_module
@@ -470,7 +488,7 @@ async def update_llm_config(config: LLMConfigRequest):
             logger.info("已重置LLM客户端")
         except Exception as e:
             logger.warning(f"重置LLM客户端失败: {e}")
-        
+
         return {
             "success": True,
             "message": "LLM配置已更新",
@@ -480,7 +498,7 @@ async def update_llm_config(config: LLMConfigRequest):
                 "configured_providers": list(config.providers.keys()) if config.providers else []
             }
         }
-        
+
     except Exception as e:
         logger.error(f"更新LLM配置失败: {e}")
         return {"success": False, "error": str(e)}

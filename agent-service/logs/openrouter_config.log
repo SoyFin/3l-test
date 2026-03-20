@@ -1,0 +1,147 @@
+2026-03-20 14:04:07 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 14:09:44 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 14:23:05 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-20 14:25:38 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 14:39:43 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 14:49:23 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 14:57:54 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 15:01:57 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-20 15:04:27 - openrouter_config - INFO - 尝试创建AI客户端: provider=zhipu, has_key=False
+2026-03-20 15:04:27 - openrouter_config - WARNING - 提供商 zhipu 的API Key未配置
+2026-03-20 15:04:27 - openrouter_config - WARNING - 未配置AI，使用模拟客户端
+2026-03-20 15:09:40 - openrouter_config - INFO - ==================================================
+2026-03-20 15:09:40 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:09:40 - openrouter_config - INFO - ==================================================
+2026-03-20 15:10:09 - openrouter_config - INFO - ==================================================
+2026-03-20 15:10:09 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:10:09 - openrouter_config - INFO - ==================================================
+2026-03-20 15:11:26 - openrouter_config - INFO - ==================================================
+2026-03-20 15:11:26 - openrouter_config - INFO - 【set_ai_config】被调用
+2026-03-20 15:11:26 - openrouter_config - INFO - 收到的配置: {"defaultProvider": "zhipu"}
+2026-03-20 15:11:26 - openrouter_config - INFO - 默认提供商: zhipu
+2026-03-20 15:11:26 - openrouter_config - INFO - ✓ AI配置更新完成
+2026-03-20 15:11:26 - openrouter_config - INFO - ==================================================
+2026-03-20 15:13:23 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=True
+2026-03-20 15:13:23 - openrouter_config - INFO - _ai_config 内容: {"defaultProvider": "zhipu"}
+2026-03-20 15:13:23 - openrouter_config - INFO - 尝试创建AI客户端: provider=zhipu, has_key=False
+2026-03-20 15:13:23 - openrouter_config - WARNING - 提供商 zhipu 的API Key未配置，尝试其他提供商...
+2026-03-20 15:13:23 - openrouter_config - WARNING - ==================================================
+2026-03-20 15:13:23 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-20 15:13:23 - openrouter_config - WARNING - 请检查：
+2026-03-20 15:13:23 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-20 15:13:23 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-20 15:13:23 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-20 15:13:23 - openrouter_config - WARNING - ==================================================
+2026-03-20 15:13:23 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=True
+2026-03-20 15:15:24 - openrouter_config - INFO - ==================================================
+2026-03-20 15:15:24 - openrouter_config - INFO - 【set_ai_config】被调用
+2026-03-20 15:15:24 - openrouter_config - INFO - 收到的配置: {"defaultProvider": "qwen"}
+2026-03-20 15:15:24 - openrouter_config - INFO - 默认提供商: qwen
+2026-03-20 15:15:24 - openrouter_config - INFO - ✓ AI配置更新完成
+2026-03-20 15:15:24 - openrouter_config - INFO - ==================================================
+2026-03-20 15:21:00 - openrouter_config - INFO - ==================================================
+2026-03-20 15:21:00 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:21:00 - openrouter_config - INFO - ==================================================
+2026-03-20 15:23:15 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-20 15:23:15 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-20 15:23:15 - openrouter_config - WARNING - ==================================================
+2026-03-20 15:23:15 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-20 15:23:15 - openrouter_config - WARNING - 请检查：
+2026-03-20 15:23:15 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-20 15:23:15 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-20 15:23:15 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-20 15:23:15 - openrouter_config - WARNING - ==================================================
+2026-03-20 15:23:15 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-20 15:30:14 - openrouter_config - INFO - ==================================================
+2026-03-20 15:30:14 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:30:14 - openrouter_config - INFO - ==================================================
+2026-03-20 15:31:00 - openrouter_config - INFO - ==================================================
+2026-03-20 15:31:00 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:31:00 - openrouter_config - INFO - ==================================================
+2026-03-20 15:32:30 - openrouter_config - INFO - ==================================================
+2026-03-20 15:32:30 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:32:30 - openrouter_config - INFO - ==================================================
+2026-03-20 15:34:36 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-20 15:34:36 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-20 15:34:36 - openrouter_config - INFO - 从环境变量发现 zhipu 的API Key
+2026-03-20 15:34:36 - openrouter_config - INFO - ✓ 使用智谱AI客户端（环境变量）
+2026-03-20 15:34:36 - openrouter_config - INFO - 正在调用智谱AI API...
+2026-03-20 15:34:45 - openrouter_config - INFO - ✓ 智谱AI调用成功
+2026-03-20 15:34:45 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-20 15:34:45 - openrouter_config - INFO - 正在调用智谱AI API...
+2026-03-20 15:35:00 - openrouter_config - INFO - ✓ 智谱AI调用成功
+2026-03-20 15:41:49 - openrouter_config - INFO - ==================================================
+2026-03-20 15:41:49 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:41:49 - openrouter_config - INFO - ==================================================
+2026-03-20 15:41:59 - openrouter_config - INFO - ==================================================
+2026-03-20 15:41:59 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:41:59 - openrouter_config - INFO - ==================================================
+2026-03-20 15:44:04 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-20 15:44:04 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-20 15:44:04 - openrouter_config - INFO - 从环境变量发现 zhipu 的API Key
+2026-03-20 15:44:04 - openrouter_config - INFO - ✓ 使用智谱AI客户端（环境变量）
+2026-03-20 15:44:04 - openrouter_config - INFO - 正在调用智谱AI API...
+2026-03-20 15:44:13 - openrouter_config - INFO - ✓ 智谱AI调用成功
+2026-03-20 15:44:13 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-20 15:44:13 - openrouter_config - INFO - 正在调用智谱AI API...
+2026-03-20 15:44:26 - openrouter_config - INFO - ✓ 智谱AI调用成功
+2026-03-20 15:48:35 - openrouter_config - INFO - ==================================================
+2026-03-20 15:48:35 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:48:35 - openrouter_config - INFO - ==================================================
+2026-03-20 15:48:42 - openrouter_config - INFO - ==================================================
+2026-03-20 15:48:42 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 15:48:42 - openrouter_config - INFO - ==================================================
+2026-03-20 15:50:47 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-20 15:50:47 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-20 15:50:47 - openrouter_config - INFO - 从环境变量发现 zhipu 的API Key
+2026-03-20 15:50:47 - openrouter_config - INFO - ✓ 使用智谱AI客户端（环境变量）
+2026-03-20 15:50:47 - openrouter_config - INFO - 正在调用智谱AI API...
+2026-03-20 15:50:52 - openrouter_config - INFO - ✓ 智谱AI调用成功
+2026-03-20 15:50:52 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-20 15:50:52 - openrouter_config - INFO - 正在调用智谱AI API...
+2026-03-20 15:51:03 - openrouter_config - INFO - ✓ 智谱AI调用成功
+2026-03-20 20:35:03 - openrouter_config - INFO - ==================================================
+2026-03-20 20:35:03 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 20:35:03 - openrouter_config - INFO - ==================================================
+2026-03-20 20:44:58 - openrouter_config - INFO - ==================================================
+2026-03-20 20:44:58 - openrouter_config - INFO - openrouter_config.py 模块已加载 (版本: v2.0)
+2026-03-20 20:44:58 - openrouter_config - INFO - ==================================================
+2026-03-20 20:46:29 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-20 20:46:29 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-20 20:46:29 - openrouter_config - WARNING - ==================================================
+2026-03-20 20:46:29 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-20 20:46:29 - openrouter_config - WARNING - 请检查：
+2026-03-20 20:46:29 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-20 20:46:29 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-20 20:46:29 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-20 20:46:29 - openrouter_config - WARNING - ==================================================
+2026-03-20 20:46:29 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-20 21:04:04 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-20 21:04:04 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-20 21:04:04 - openrouter_config - WARNING - ==================================================
+2026-03-20 21:04:04 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-20 21:04:04 - openrouter_config - WARNING - 请检查：
+2026-03-20 21:04:04 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-20 21:04:04 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-20 21:04:04 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-20 21:04:04 - openrouter_config - WARNING - ==================================================
+2026-03-20 21:04:05 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-20 21:07:30 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-20 21:08:07 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=True
+2026-03-20 21:08:07 - openrouter_config - INFO - 检查配置: provider=zhipu, has_key=False
+2026-03-20 21:08:07 - openrouter_config - WARNING - 配置了 zhipu 但没有 apiKey
+2026-03-20 21:08:07 - openrouter_config - WARNING - ==================================================
+2026-03-20 21:08:07 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-20 21:08:07 - openrouter_config - WARNING - 请检查：
+2026-03-20 21:08:07 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-20 21:08:07 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-20 21:08:07 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-20 21:08:07 - openrouter_config - WARNING - ==================================================
+2026-03-20 21:08:07 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=True
+2026-03-20 21:19:40 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-20 21:21:33 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=True
+2026-03-20 21:21:33 - openrouter_config - INFO - 检查配置: provider=zhipu, has_key=True
+2026-03-20 21:21:33 - openrouter_config - INFO - ✓ 使用平台AI客户端 (zhipu)
+2026-03-20 21:21:33 - openrouter_config - ERROR - ✗ API调用失败: HTTP 404
+2026-03-20 21:21:33 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=True
+2026-03-20 21:21:33 - openrouter_config - ERROR - ✗ API调用失败: HTTP 404

@@ -1,0 +1,1143 @@
+2026-03-20 11:08:43 - api - INFO - 
+Getting price history for SZ002498...
+2026-03-20 11:08:43 - api - INFO - Start date: 2025-03-19
+2026-03-20 11:08:43 - api - INFO - End date: 2026-03-19
+2026-03-20 11:08:43 - api - ERROR - Error getting price history: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:08:43 - api - INFO - Getting financial indicators for SZ002498...
+2026-03-20 11:08:43 - api - INFO - Fetching real-time quotes...
+2026-03-20 11:08:57 - api - ERROR - Error getting financial indicators: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:08:57 - api - INFO - Getting financial statements for SZ002498...
+2026-03-20 11:08:57 - api - INFO - Fetching balance sheet...
+2026-03-20 11:08:58 - api - INFO - ✓ Balance sheet fetched
+2026-03-20 11:08:58 - api - INFO - Fetching income statement...
+2026-03-20 11:08:58 - api - INFO - ✓ Income statement fetched
+2026-03-20 11:08:58 - api - INFO - Fetching cash flow statement...
+2026-03-20 11:08:59 - api - INFO - ✓ Cash flow statement fetched
+2026-03-20 11:08:59 - api - INFO - ✓ Latest period data processed successfully
+2026-03-20 11:08:59 - api - INFO - ✓ Previous period data processed successfully
+2026-03-20 11:09:20 - api - ERROR - Error getting market data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:09:26 - api - INFO - 
+Getting price history for SZ002498...
+2026-03-20 11:09:26 - api - INFO - Start date: 2025-03-19
+2026-03-20 11:09:26 - api - INFO - End date: 2026-03-19
+2026-03-20 11:09:26 - api - ERROR - Error getting price history: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:09:26 - api - INFO - Getting financial indicators for SZ002498...
+2026-03-20 11:09:26 - api - INFO - Fetching real-time quotes...
+2026-03-20 11:09:41 - api - ERROR - Error getting financial indicators: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:09:41 - api - INFO - Getting financial statements for SZ002498...
+2026-03-20 11:09:41 - api - INFO - Fetching balance sheet...
+2026-03-20 11:09:42 - api - INFO - ✓ Balance sheet fetched
+2026-03-20 11:09:42 - api - INFO - Fetching income statement...
+2026-03-20 11:09:43 - api - INFO - ✓ Income statement fetched
+2026-03-20 11:09:43 - api - INFO - Fetching cash flow statement...
+2026-03-20 11:09:44 - api - INFO - ✓ Cash flow statement fetched
+2026-03-20 11:09:44 - api - INFO - ✓ Latest period data processed successfully
+2026-03-20 11:09:44 - api - INFO - ✓ Previous period data processed successfully
+2026-03-20 11:09:49 - api - ERROR - Error getting market data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:31:07 - api - INFO - 
+Getting price history for SZ002498...
+2026-03-20 11:31:07 - api - INFO - Start date: 2025-03-19
+2026-03-20 11:31:07 - api - INFO - End date: 2026-03-19
+2026-03-20 11:31:07 - api - ERROR - Error getting price history: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:31:07 - api - INFO - Getting financial indicators for SZ002498...
+2026-03-20 11:31:07 - api - INFO - Fetching real-time quotes...
+2026-03-20 11:31:13 - api - ERROR - Error getting financial indicators: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:31:13 - api - INFO - Getting financial statements for SZ002498...
+2026-03-20 11:31:13 - api - INFO - Fetching balance sheet...
+2026-03-20 11:31:14 - api - INFO - ✓ Balance sheet fetched
+2026-03-20 11:31:14 - api - INFO - Fetching income statement...
+2026-03-20 11:31:15 - api - INFO - ✓ Income statement fetched
+2026-03-20 11:31:15 - api - INFO - Fetching cash flow statement...
+2026-03-20 11:31:15 - api - INFO - ✓ Cash flow statement fetched
+2026-03-20 11:31:15 - api - INFO - ✓ Latest period data processed successfully
+2026-03-20 11:31:15 - api - INFO - ✓ Previous period data processed successfully
+2026-03-20 11:31:21 - api - ERROR - Error getting market data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:31:28 - api - INFO - 
+Getting price history for SZ002498...
+2026-03-20 11:31:28 - api - INFO - Start date: 2025-03-19
+2026-03-20 11:31:28 - api - INFO - End date: 2026-03-19
+2026-03-20 11:31:28 - api - ERROR - Error getting price history: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:31:28 - api - INFO - Getting financial indicators for SZ002498...
+2026-03-20 11:31:28 - api - INFO - Fetching real-time quotes...
+2026-03-20 11:31:39 - api - ERROR - Error getting financial indicators: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:31:39 - api - INFO - Getting financial statements for SZ002498...
+2026-03-20 11:31:39 - api - INFO - Fetching balance sheet...
+2026-03-20 11:31:40 - api - INFO - ✓ Balance sheet fetched
+2026-03-20 11:31:40 - api - INFO - Fetching income statement...
+2026-03-20 11:31:40 - api - INFO - ✓ Income statement fetched
+2026-03-20 11:31:40 - api - INFO - Fetching cash flow statement...
+2026-03-20 11:31:41 - api - INFO - ✓ Cash flow statement fetched
+2026-03-20 11:31:41 - api - INFO - ✓ Latest period data processed successfully
+2026-03-20 11:31:41 - api - INFO - ✓ Previous period data processed successfully
+2026-03-20 11:31:46 - api - ERROR - Error getting market data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:33:26 - api - INFO - 
+Getting price history for 002498...
+2026-03-20 11:33:26 - api - INFO - Start date: 2025-03-19
+2026-03-20 11:33:26 - api - INFO - End date: 2026-03-19
+2026-03-20 11:33:26 - api - ERROR - Error getting price history: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:33:26 - api - INFO - Getting financial indicators for 002498...
+2026-03-20 11:33:26 - api - INFO - Fetching real-time quotes...
+2026-03-20 11:33:32 - api - ERROR - Error getting financial indicators: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:33:32 - api - INFO - Getting financial statements for 002498...
+2026-03-20 11:33:32 - api - INFO - Fetching balance sheet...
+2026-03-20 11:33:33 - api - INFO - ✓ Balance sheet fetched
+2026-03-20 11:33:33 - api - INFO - Fetching income statement...
+2026-03-20 11:33:33 - api - INFO - ✓ Income statement fetched
+2026-03-20 11:33:33 - api - INFO - Fetching cash flow statement...
+2026-03-20 11:33:34 - api - INFO - ✓ Cash flow statement fetched
+2026-03-20 11:33:34 - api - INFO - ✓ Latest period data processed successfully
+2026-03-20 11:33:34 - api - INFO - ✓ Previous period data processed successfully
+2026-03-20 11:33:39 - api - ERROR - Error getting market data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:33:45 - api - INFO - 
+Getting price history for 002498...
+2026-03-20 11:33:45 - api - INFO - Start date: 2025-03-19
+2026-03-20 11:33:45 - api - INFO - End date: 2026-03-19
+2026-03-20 11:33:45 - api - ERROR - Error getting price history: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:33:45 - api - INFO - Getting financial indicators for 002498...
+2026-03-20 11:33:45 - api - INFO - Fetching real-time quotes...
+2026-03-20 11:33:58 - api - ERROR - Error getting financial indicators: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 11:35:02 - api - INFO - Getting financial statements for 002498...
+2026-03-20 11:35:02 - api - INFO - Fetching balance sheet...
+2026-03-20 11:35:03 - api - INFO - ✓ Balance sheet fetched
+2026-03-20 11:35:03 - api - INFO - Fetching income statement...
+2026-03-20 11:35:03 - api - INFO - ✓ Income statement fetched
+2026-03-20 11:35:03 - api - INFO - Fetching cash flow statement...
+2026-03-20 11:35:04 - api - INFO - ✓ Cash flow statement fetched
+2026-03-20 11:35:04 - api - INFO - ✓ Latest period data processed successfully
+2026-03-20 11:35:04 - api - INFO - ✓ Previous period data processed successfully
+2026-03-20 11:35:10 - api - ERROR - Error getting market data: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:47:56 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 13:47:56 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 13:47:56 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:47:57 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:00 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:00 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 13:48:00 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 13:48:00 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 13:48:00 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 13:48:05 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:14 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:22 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:22 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 13:48:23 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 13:48:24 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 13:48:24 - api - INFO - 构建财务指标...
+2026-03-20 13:48:24 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 13:48:24 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 13:48:24 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 13:48:25 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 13:48:25 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 13:48:25 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 13:48:25 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 13:48:38 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:44 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:51 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:51 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 13:48:57 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 13:48:57 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 13:48:57 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:48:59 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:49:01 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:49:01 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 13:49:01 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 13:49:01 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 13:49:01 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 13:49:12 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:49:18 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:49:33 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:49:33 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 13:49:34 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 13:49:35 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 13:49:35 - api - INFO - 构建财务指标...
+2026-03-20 13:49:35 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 13:49:35 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 13:49:36 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 13:49:36 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 13:49:37 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 13:49:37 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 13:49:37 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 13:49:42 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:49:49 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:50:03 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 13:50:03 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:00:27 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:00:27 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:00:28 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:00:28 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:00:28 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:01:51 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:01:58 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:02:18 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:02:18 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:02:19 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:02:19 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:02:19 - api - INFO - 构建财务指标...
+2026-03-20 14:02:19 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:02:19 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:02:20 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:02:20 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:02:21 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:02:21 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:02:21 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:02:27 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:02:42 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:02:53 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:02:53 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:03:05 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:03:05 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:03:05 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:06 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:08 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:08 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:03:09 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 14:03:09 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 14:03:09 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:03:15 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:27 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:37 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:37 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:03:37 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:03:38 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:03:38 - api - INFO - 构建财务指标...
+2026-03-20 14:03:38 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:03:38 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:03:39 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:03:39 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:03:40 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:03:40 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:03:40 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:03:46 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:03:56 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:04:07 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:04:07 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:07:07 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:07:07 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:07:07 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:07:09 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:07:11 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:07:11 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:07:11 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 14:07:11 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 14:07:11 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:07:17 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:07:25 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:07:41 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:07:41 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:07:42 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:07:43 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:07:43 - api - INFO - 构建财务指标...
+2026-03-20 14:07:43 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:07:43 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:07:43 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:07:44 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:07:45 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:07:45 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:07:45 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:07:50 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:08:06 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:08:23 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:08:23 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:08:29 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:08:29 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:08:29 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:08:31 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:08:31 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:08:31 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:08:45 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:08:52 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:09:08 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:09:08 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:09:09 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:09:10 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:09:10 - api - INFO - 构建财务指标...
+2026-03-20 14:09:10 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:09:10 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:09:10 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:09:11 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:09:11 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:09:11 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:09:11 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:09:17 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:09:33 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:09:44 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:09:44 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:12:45 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:12:45 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:12:45 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:12:45 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:12:45 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:12:54 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:13:02 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:13:18 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:13:18 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:13:19 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:13:19 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:13:19 - api - INFO - 构建财务指标...
+2026-03-20 14:13:19 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:13:19 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:13:20 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:13:20 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:13:21 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:13:21 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:13:21 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:13:27 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:13:42 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:14:07 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:14:07 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:14:13 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:14:13 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:14:13 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:14:15 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:14:17 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:14:17 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:23:06 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:23:06 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:23:07 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:23:08 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:23:10 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:23:10 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:23:11 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 14:23:11 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 14:23:11 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:23:16 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:23:31 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:23:42 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:23:42 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:23:42 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:23:43 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:23:43 - api - INFO - 构建财务指标...
+2026-03-20 14:23:43 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:23:43 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:23:44 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:23:44 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:23:45 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:23:45 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:23:45 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:23:56 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:02 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:20 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:20 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:24:26 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:24:26 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:24:26 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:27 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:29 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:29 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:24:30 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 14:24:30 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 14:24:30 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:24:44 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:24:51 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:25:03 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:25:03 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:25:03 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:25:04 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:25:04 - api - INFO - 构建财务指标...
+2026-03-20 14:25:04 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:25:04 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:25:04 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:25:05 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:25:05 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:25:05 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:25:05 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:25:12 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:25:27 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:25:38 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:25:38 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:36:48 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:36:48 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:36:48 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:36:49 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:36:50 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:36:50 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:37:00 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:37:07 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:37:26 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:37:26 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:37:27 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:37:27 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:37:27 - api - INFO - 构建财务指标...
+2026-03-20 14:37:27 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:37:27 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:37:28 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:37:28 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:37:29 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:37:29 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:37:29 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:37:35 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:37:47 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:11 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:11 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:38:16 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:38:16 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:38:16 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:18 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:20 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:38:20 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:38:20 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:38:33 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:39 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:58 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:38:58 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:38:59 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:38:59 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:38:59 - api - INFO - 构建财务指标...
+2026-03-20 14:38:59 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:38:59 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:39:00 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:39:00 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:39:01 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:39:01 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:39:01 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:39:18 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:39:25 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:39:43 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:39:43 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:46:02 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:46:02 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:46:02 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:46:03 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:46:03 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:46:15 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:46:21 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:46:36 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:46:36 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:46:37 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:46:38 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:46:38 - api - INFO - 构建财务指标...
+2026-03-20 14:46:38 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:46:38 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:46:39 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:46:39 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:46:40 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:46:40 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:46:40 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:46:46 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:47:00 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:47:12 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:47:12 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:47:24 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:47:24 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:47:24 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:47:25 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:47:28 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:47:28 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:47:28 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 14:47:28 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 14:47:28 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:47:48 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:48:11 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:48:33 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:48:33 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:48:34 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:48:34 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:48:34 - api - INFO - 构建财务指标...
+2026-03-20 14:48:34 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:48:34 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:48:36 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:48:36 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:48:37 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:48:37 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:48:37 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:48:42 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:48:57 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:49:23 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:49:23 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:55:16 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:55:16 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:55:17 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:55:17 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 14:55:17 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:55:29 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:55:36 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:55:52 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:55:52 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:55:53 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:55:53 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:55:53 - api - INFO - 构建财务指标...
+2026-03-20 14:55:53 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:55:53 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:55:54 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:55:55 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:55:55 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:55:55 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:55:55 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:56:01 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:56:21 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:56:36 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:56:36 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 14:56:42 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 14:56:42 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 14:56:42 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:56:43 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:56:46 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:56:46 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 14:56:46 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 14:56:46 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 14:56:46 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 14:57:03 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:57:09 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:57:27 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:57:27 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 14:57:28 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 14:57:29 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:57:29 - api - INFO - 构建财务指标...
+2026-03-20 14:57:29 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 14:57:29 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 14:57:29 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 14:57:30 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 14:57:30 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 14:57:30 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 14:57:30 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 14:57:36 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:57:43 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:57:54 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 14:57:54 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:02:02 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:02:02 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:02:02 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:02:03 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:02:05 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:02:05 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:02:06 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:02:06 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:02:06 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:02:12 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:02:33 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:02:44 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:02:44 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:02:45 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:02:46 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:02:46 - api - INFO - 构建财务指标...
+2026-03-20 15:02:46 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:02:46 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:02:46 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:02:47 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:02:47 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:02:47 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:02:47 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:03:00 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:03:06 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:03:18 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:03:18 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:03:24 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:03:24 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:03:24 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:03:25 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 15:03:26 - api - INFO - ✓ 历史价格数据获取成功 (243 条记录)
+2026-03-20 15:03:26 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:03:32 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:03:39 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:04:00 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:04:00 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:04:01 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:04:01 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:04:01 - api - INFO - 构建财务指标...
+2026-03-20 15:04:01 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:04:01 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:04:02 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:04:02 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:04:03 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:04:03 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:04:03 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:04:08 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:04:15 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:04:27 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:04:27 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:11:28 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:11:28 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:11:29 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:11:30 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:11:32 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:11:32 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:11:33 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:11:33 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:11:33 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:11:39 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:11:47 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:11:57 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:11:57 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:11:58 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:11:58 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:11:58 - api - INFO - 构建财务指标...
+2026-03-20 15:11:58 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:11:58 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:11:59 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:11:59 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:12:00 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:12:00 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:12:00 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:12:05 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:12 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:23 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:23 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:12:29 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:12:29 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:12:29 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:30 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:32 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:32 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:12:33 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:12:33 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:12:33 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:12:38 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:45 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:56 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:12:56 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:12:56 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:12:57 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:12:57 - api - INFO - 构建财务指标...
+2026-03-20 15:12:57 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:12:57 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:12:58 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:12:58 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:12:58 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:12:58 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:12:58 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:13:04 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:13:11 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:13:23 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:13:23 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:21:19 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:21:19 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:21:19 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:21:20 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:21:23 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:21:23 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:21:23 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:21:23 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:21:23 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:21:29 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:21:37 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:21:47 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:21:47 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:21:48 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:21:49 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:21:49 - api - INFO - 构建财务指标...
+2026-03-20 15:21:49 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:21:49 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:21:49 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:21:50 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:21:50 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:21:50 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:21:50 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:21:57 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:04 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:15 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:15 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:22:21 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:22:21 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:22:21 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:22 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:24 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:24 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:22:25 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:22:25 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:22:25 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:22:31 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:38 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:49 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:22:49 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:22:50 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:22:50 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:22:50 - api - INFO - 构建财务指标...
+2026-03-20 15:22:50 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:22:50 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:22:51 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:22:52 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:22:52 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:22:52 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:22:52 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:22:57 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:23:05 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:23:15 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:23:15 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:32:42 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:32:42 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:32:42 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:32:44 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:32:46 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:32:46 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:32:46 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:32:46 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:32:46 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:32:52 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:32:59 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:10 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:10 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:33:11 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:33:11 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:33:11 - api - INFO - 构建财务指标...
+2026-03-20 15:33:11 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:33:11 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:33:12 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:33:13 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:33:13 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:33:13 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:33:13 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:33:19 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:25 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:35 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:35 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:33:42 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:33:42 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:33:42 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:43 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:45 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:45 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:33:46 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:33:46 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:33:46 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:33:51 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:33:58 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:34:09 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:34:09 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:34:10 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:34:10 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:34:10 - api - INFO - 构建财务指标...
+2026-03-20 15:34:10 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:34:10 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:34:11 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:34:12 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:34:13 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:34:13 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:34:13 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:34:18 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:34:25 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:34:36 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:34:36 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:42:15 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:42:15 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:42:16 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:17 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:19 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:19 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:42:19 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:42:19 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:42:20 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:42:25 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:32 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:42 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:42 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:42:43 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:42:44 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:42:44 - api - INFO - 构建财务指标...
+2026-03-20 15:42:44 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:42:44 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:42:44 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:42:45 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:42:45 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:42:45 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:42:45 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:42:50 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:42:57 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:07 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:07 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:43:13 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:43:13 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:43:13 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:14 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:16 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:16 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:43:16 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:43:16 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:43:16 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:43:22 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:28 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:38 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:38 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:43:39 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:43:39 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:43:39 - api - INFO - 构建财务指标...
+2026-03-20 15:43:39 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:43:39 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:43:40 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:43:41 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:43:41 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:43:41 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:43:41 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:43:47 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:43:53 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:44:04 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:44:04 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:48:53 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:48:53 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:48:53 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:48:55 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:48:57 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:48:57 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:48:57 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:48:57 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:48:57 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:49:03 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:10 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:21 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:21 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:49:21 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:49:23 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:49:23 - api - INFO - 构建财务指标...
+2026-03-20 15:49:23 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:49:23 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:49:24 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:49:24 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:49:25 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:49:25 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:49:25 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:49:30 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:37 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:48 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:48 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 15:49:54 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 15:49:54 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 15:49:54 - api - WARNING - 获取历史价格失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:55 - api - WARNING - 获取历史价格失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:58 - api - WARNING - 获取历史价格失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:49:58 - api - INFO - 尝试从腾讯获取历史价格...
+2026-03-20 15:49:58 - api - WARNING - 腾讯历史价格获取失败: invalid literal for int() with base 10: 'i'
+2026-03-20 15:49:58 - api - WARNING - 无法获取 002498 的历史价格数据
+2026-03-20 15:49:58 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 15:50:03 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:50:10 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:50:21 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:50:21 - api - WARNING - 无法获取实时行情数据，使用空数据继续
+2026-03-20 15:50:21 - api - INFO - ✓ 新浪财务指标获取成功 (3 条记录)
+2026-03-20 15:50:22 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:50:22 - api - INFO - 构建财务指标...
+2026-03-20 15:50:22 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 15:50:22 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 15:50:23 - api - INFO - ✓ 资产负债表获取成功 (新浪)
+2026-03-20 15:50:24 - api - INFO - ✓ 利润表获取成功 (新浪)
+2026-03-20 15:50:24 - api - INFO - ✓ 现金流量表获取成功 (新浪)
+2026-03-20 15:50:24 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 15:50:24 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 15:50:30 - api - WARNING - 获取实时行情失败 (尝试 1/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:50:37 - api - WARNING - 获取实时行情失败 (尝试 2/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:50:47 - api - WARNING - 获取实时行情失败 (尝试 3/3): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 15:50:47 - api - WARNING - 市场数据获取失败，返回空数据
+2026-03-20 20:35:15 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 20:35:15 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 20:35:15 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 20:35:16 - api - INFO - ✓ [东方财富] 成功 243 条
+2026-03-20 20:35:16 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 20:35:16 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 20:35:16 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 20:36:22 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 20:36:47 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:36:49 - api - INFO - [新浪] 获取实时行情 (第3次)...
+2026-03-20 20:36:50 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:36:51 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 20:36:52 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:36:52 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 20:36:52 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 20:36:54 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 20:36:54 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:36:55 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 20:36:55 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 20:36:55 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 20:36:55 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 20:36:55 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:36:56 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 20:36:57 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:36:59 - api - INFO - [新浪] 获取实时行情 (第3次)...
+2026-03-20 20:37:00 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:00 - api - WARNING - 市场数据获取失败
+2026-03-20 20:37:14 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 20:37:14 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 20:37:14 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 20:37:14 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:37:15 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 20:37:16 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:37:18 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 20:37:19 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:37:19 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 20:37:20 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 20:37:20 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 20:37:20 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 20:37:20 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 20:37:21 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:22 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 20:37:22 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:24 - api - INFO - [新浪] 获取实时行情 (第3次)...
+2026-03-20 20:37:24 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:27 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 20:37:28 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:37:28 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 20:37:28 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 20:37:29 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 20:37:30 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:37:32 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 20:37:32 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 20:37:32 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 20:37:32 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 20:37:32 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:33 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 20:37:34 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:36 - api - INFO - [新浪] 获取实时行情 (第3次)...
+2026-03-20 20:37:36 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:37:36 - api - WARNING - 市场数据获取失败
+2026-03-20 20:45:11 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 20:45:11 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 20:45:11 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 20:45:11 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:45:12 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 20:45:13 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:45:15 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 20:45:15 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:45:15 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 20:45:16 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 20:45:16 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 20:45:16 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 20:45:16 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 20:45:16 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 20:45:55 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-20 20:45:56 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 20:45:59 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 20:45:59 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:45:59 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 20:45:59 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 20:46:00 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 20:46:02 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:46:02 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 20:46:02 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 20:46:02 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 20:46:02 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-20 20:46:03 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 20:46:03 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 20:46:03 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 20:46:03 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 20:46:03 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 20:46:04 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:46:05 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 20:46:05 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:46:07 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 20:46:07 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 20:46:07 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 20:46:08 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 20:46:08 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 20:46:08 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 20:46:08 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 20:46:08 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-20 20:46:09 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 20:46:14 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 20:46:19 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:46:19 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 20:46:19 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 20:46:21 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 20:46:23 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 20:46:27 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 20:46:27 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 20:46:27 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 20:46:27 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 20:46:27 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:46:28 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 20:46:28 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 20:46:28 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 20:46:29 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 20:46:29 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 21:01:51 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 21:01:51 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 21:01:51 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 21:01:51 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:01:52 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 21:01:53 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:01:55 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 21:01:55 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:01:55 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 21:01:56 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 21:01:56 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 21:01:56 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 21:01:56 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 21:01:56 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:03:16 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-20 21:03:18 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:03:20 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 21:03:28 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:03:28 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 21:03:28 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 21:03:30 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 21:03:30 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:03:31 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 21:03:31 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 21:03:31 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 21:03:31 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:03:32 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:03:33 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:03:33 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:03:33 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:03:34 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:03:34 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 21:03:35 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 21:03:35 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 21:03:35 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 21:03:35 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:03:36 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 21:03:36 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:03:38 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 21:03:38 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:03:38 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 21:03:40 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 21:03:40 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 21:03:40 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 21:03:40 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 21:03:40 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:03:44 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:03:45 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:03:47 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:03:47 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:03:48 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:03:52 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 21:03:53 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:03:53 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 21:03:53 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 21:03:55 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 21:03:57 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:04:02 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 21:04:02 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 21:04:02 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 21:04:02 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:04:02 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:04:03 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:04:03 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:04:03 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:04:04 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:04:04 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 21:07:32 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 21:07:32 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 21:07:32 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 21:07:32 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:07:33 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 21:07:33 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:07:35 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 21:07:35 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:07:35 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 21:07:37 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 21:07:37 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 21:07:37 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 21:07:37 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 21:07:37 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:07:37 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:07:38 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:07:38 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:07:38 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:07:39 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:07:40 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 21:07:42 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:07:42 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 21:07:42 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 21:07:43 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 21:07:45 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:07:46 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 21:07:46 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 21:07:46 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 21:07:46 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:07:47 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:07:48 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:07:48 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:07:48 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:07:49 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:07:49 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 21:07:49 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 21:07:49 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 21:07:49 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 21:07:49 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:07:50 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 21:07:50 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:07:52 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 21:07:52 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:07:52 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 21:07:54 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 21:07:54 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 21:07:54 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 21:07:54 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 21:07:54 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:07:54 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:07:55 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:07:55 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:07:55 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:07:56 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:08:00 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 21:08:01 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:08:01 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 21:08:01 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 21:08:02 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 21:08:03 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:08:04 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 21:08:04 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 21:08:04 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 21:08:04 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:08:05 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:08:06 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:08:06 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:08:06 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:08:07 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:08:07 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 21:19:41 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 21:19:41 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 21:19:41 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 21:19:42 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:19:43 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 21:19:43 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:19:45 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 21:19:45 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:19:45 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 21:19:46 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 21:19:46 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 21:19:46 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 21:19:46 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 21:19:46 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:20:56 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:20:57 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:20:57 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:20:57 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:20:58 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:21:02 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 21:21:03 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:21:03 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 21:21:03 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 21:21:06 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 21:21:06 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:21:08 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 21:21:08 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 21:21:08 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 21:21:08 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:21:09 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:21:10 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:21:13 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:21:13 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:21:13 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:21:13 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-20 21:21:14 - api - INFO - 获取历史价格: SZ002498 -> 002498
+2026-03-20 21:21:14 - api - INFO - 日期范围: 2025-03-19 ~ 2026-03-19
+2026-03-20 21:21:14 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-20 21:21:14 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:21:15 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-20 21:21:15 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:21:17 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-20 21:21:17 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-20 21:21:17 - api - INFO - [腾讯] 获取历史价格 sz002498...
+2026-03-20 21:21:18 - api - INFO - ✓ [腾讯] 成功 243 条
+2026-03-20 21:21:18 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-20 21:21:18 - api - INFO - ✓ 历史价格处理完成 (243 条)
+2026-03-20 21:21:18 - api - INFO - 获取财务指标: SZ002498 -> 002498
+2026-03-20 21:21:18 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:21:19 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:21:20 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:21:24 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:21:24 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:21:25 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:21:27 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-20 21:21:27 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:21:27 - api - INFO - ✓ 财务指标构建完成
+2026-03-20 21:21:27 - api - INFO - 获取财务报表: SZ002498 -> 002498
+2026-03-20 21:21:28 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-20 21:21:29 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-20 21:21:30 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-20 21:21:30 - api - INFO - ✓ 财务报表处理完成
+2026-03-20 21:21:30 - api - INFO - 获取市场数据: SZ002498 -> 002498
+2026-03-20 21:21:30 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-20 21:21:31 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:21:32 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-20 21:21:32 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-20 21:21:32 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-20 21:21:33 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-20 21:21:33 - api - INFO - ✓ 市场数据从历史价格获取成功

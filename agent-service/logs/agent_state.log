@@ -1,0 +1,2908 @@
+2026-03-20 11:09:26 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 11:09:49 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 11:09:49 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 11:09:49 - agent_state - INFO - {
+  "signal": "bearish",
+  "confidence": "75%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: N/A, Net Margin: N/A, Op Margin: N/A"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: N/A, Earnings Growth: N/A"
+    },
+    "financial_health_signal": {
+      "signal": "bearish",
+      "details": "Current Ratio: N/A, D/E: N/A"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 11:09:49 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 11:09:49 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 11:09:49 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 11:09:49 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 11:09:49 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 11:09:49 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 11:31:28 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 11:31:46 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 11:31:46 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 11:31:46 - agent_state - INFO - {
+  "signal": "bearish",
+  "confidence": "75%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: N/A, Net Margin: N/A, Op Margin: N/A"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: N/A, Earnings Growth: N/A"
+    },
+    "financial_health_signal": {
+      "signal": "bearish",
+      "details": "Current Ratio: N/A, D/E: N/A"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 11:31:46 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 11:31:46 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 11:31:46 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 11:31:46 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 11:31:46 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 11:31:46 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 11:33:45 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 11:35:10 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 11:35:10 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 11:35:10 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 11:35:10 - agent_state - INFO - {
+  "signal": "bearish",
+  "confidence": "75%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: N/A, Net Margin: N/A, Op Margin: N/A"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: N/A, Earnings Growth: N/A"
+    },
+    "financial_health_signal": {
+      "signal": "bearish",
+      "details": "Current Ratio: N/A, D/E: N/A"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 11:35:10 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 11:35:10 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 11:35:10 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 11:35:10 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 11:35:10 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 13:48:57 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 13:50:03 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 13:50:03 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 13:50:03 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 13:50:03 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 13:50:03 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 13:50:03 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 13:50:03 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 13:50:03 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 13:50:03 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:03:05 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 14:04:07 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 14:04:07 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:04:07 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 14:04:07 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 14:04:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 14:04:07 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 14:04:07 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 14:08:29 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 0.6809809006143525
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 14:09:44 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 14:09:44 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:09:44 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:09:44 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 14:14:13 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:24:26 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 14:25:38 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 14:25:38 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:25:38 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:25:38 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 14:38:16 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 0.6809809006143525
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 14:39:43 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 14:39:43 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:39:43 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:39:43 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 14:47:24 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 14:49:23 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 14:49:23 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:49:23 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:49:23 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 14:56:42 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 14:57:54 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 14:57:54 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:57:54 - agent_state - INFO - portfolio_management_agent
+2026-03-20 14:57:54 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 15:03:24 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 0.6809809006143525
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 15:04:27 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 15:04:27 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:04:27 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:04:27 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 15:12:29 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 15:13:23 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 15:13:23 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:13:23 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:13:23 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 15:22:21 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 15:23:15 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 15:23:15 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:23:15 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:23:15 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 15:33:42 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 15:34:36 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 15:34:36 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 15:34:36 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 15:34:36 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:34:36 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:34:36 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 15:34:36 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 15:34:36 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 15:34:45 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.2,
+  "llm_analysis": "The bearish view points to the possibility of a temporary technical rally and unsustainable fundamental strength, suggesting that current market sentiment may be overly optimistic and valuations may not reflect potential downside risks. On the other hand, the bullish view argues that technical indicators may be conservative, presenting buying opportunities, and that company fundamentals are improving, indicating potential value opportunities. Market sentiment is also considered overly pessimistic by the bullish view, which suggests that current valuations may not reflect growth potential. Both views present valid arguments, but the bearish view seems to have a more balanced perspective considering both technical and fundamental aspects, as well as potential market sentiment risks.",
+  "llm_reasoning": "The bearish view is given a slightly lower score due to its cautious approach, which takes into account potential reversals and unsustainable conditions. However, it is not rated as low as -1.0 because it does not necessarily discount the possibility of growth or improvement. The bullish view is also given a score, but it is slightly higher than the bearish view because it focuses on opportunities that may arise from undervaluation and improving fundamentals. The final score of 0.2 reflects a slightly bearish bias, acknowledging the potential risks while not completely dismissing the growth potential.",
+  "mixed_confidence_diff": 0.06,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 15:34:45 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 15:34:45 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 15:34:45 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 15:34:45 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 15:34:45 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 15:34:45 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:35:00 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:35:00 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 15:43:13 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 15:44:04 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 15:44:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 15:44:04 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 15:44:04 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:44:04 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:44:04 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 15:44:04 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 15:44:04 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 15:44:13 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "The bearish and bullish views present contrasting perspectives on the market's current state and future potential. The bearish view suggests that the current rally may be fleeting and that the market's fundamental strength is not sustainable, possibly due to overly optimistic sentiment and valuations not fully reflecting potential downside risks. Conversely, the bullish view argues that technical indicators may be indicating conservative assessments, providing buying opportunities, and that company fundamentals are improving, suggesting that market sentiment is overly pessimistic and valuations may not reflect growth potential. The analysis should consider both the technical and fundamental aspects, as well as the sentiment driving the market.",
+  "llm_reasoning": "The views are balanced with each presenting valid points from different perspectives. However, without specific market data or context, it is challenging to definitively weigh one view over the other. The score of 0.0 indicates a neutral stance, acknowledging that both views have merit but no clear dominant factor can be determined without further information.",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 15:44:13 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 15:44:13 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 15:44:13 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 15:44:13 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 15:44:13 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 15:44:13 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:44:26 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:44:26 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 15:49:54 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": false,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 15:50:47 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 15:50:47 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 15:50:47 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 15:50:47 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:50:47 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 15:50:47 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 15:50:47 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 15:50:47 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 15:50:52 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.5,
+  "llm_analysis": "The bearish view suggests caution due to the potential temporary nature of a technical rally, the possibility of current fundamental strength not being sustainable, and an overly optimistic market sentiment which could indicate risks. The bearish viewpoint also highlights that current valuations may not fully account for downside risks. Conversely, the bullish view argues that technical indicators may present conservative buying opportunities, company fundamentals may show room for improvement, and an overly pessimistic market sentiment may create value opportunities. The bullish perspective also notes that current valuations may not reflect the full growth potential. Both views offer valid points, with the bearish view emphasizing caution and potential reversals, while the bullish view focuses on opportunities and potential growth. The balance between these perspectives suggests a moderate stance is warranted.",
+  "llm_reasoning": "The score of 0.5 reflects a balanced perspective, acknowledging the potential risks highlighted by the bearish view as well as the growth opportunities pointed out by the bullish view. The moderate score reflects the idea that while there are risks, there are also opportunities, and a cautious but optimistic approach may be appropriate.",
+  "mixed_confidence_diff": 0.15,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bullish arguments more convincing"
+}
+2026-03-20 15:50:52 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 15:50:52 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 15:50:52 - agent_state - INFO - {
+  "max_position_size": 0,
+  "risk_score": 8,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0,
+    "value_at_risk_95": 0,
+    "max_drawdown": 0,
+    "market_risk_score": 5,
+    "stress_test_results": {},
+    "warning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u4f7f\u7528\u4fdd\u5b88\u98ce\u9669\u8bc4\u4f30"
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "bullish"
+  },
+  "reasoning": "\u4ef7\u683c\u6570\u636e\u4e0d\u53ef\u7528\uff0c\u91c7\u7528\u4fdd\u5b88\u7b56\u7565\u5efa\u8bae\u6301\u6709\u89c2\u671b"
+}
+2026-03-20 15:50:52 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 15:50:52 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 15:50:52 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:51:03 - agent_state - INFO - portfolio_management_agent
+2026-03-20 15:51:03 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 20:37:14 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 20:37:36 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": false
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 20:37:36 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 20:37:36 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 20:37:36 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 20:37:36 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 20:37:36 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 20:37:36 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 20:37:36 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 20:37:36 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 20:37:37 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 20:37:37 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 20:46:03 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 20:46:29 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 20:46:29 - agent_state - INFO - portfolio_management_agent
+2026-03-20 20:46:29 - agent_state - INFO - portfolio_management_agent
+2026-03-20 20:46:29 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 21:03:35 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 21:04:04 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 21:04:04 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 21:04:04 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 21:04:05 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 21:04:05 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 21:04:05 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 21:04:05 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:04:05 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:04:05 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 21:07:49 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.0,
+  "llm_analysis": "None",
+  "llm_reasoning": "AI\u670d\u52a1\u672a\u914d\u7f6e\uff0c\u8bf7\u5728\u524d\u7aef\u8bbe\u7f6e\u4e2d\u914d\u7f6eAI\u5e73\u53f0API Key",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 21:08:07 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 21:08:07 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:08:07 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:08:07 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-20 21:21:14 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "ticker": "SZ002498",
+  "start_date": "2025-03-19",
+  "end_date": "2026-03-19",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSZ002498\u6536\u96c6\u4e86\u4ece2025-03-19\u52302026-03-19\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 5.51%, Net Margin: 6.51%, Op Margin: 7.41%"
+    },
+    "growth_signal": {
+      "signal": "bearish",
+      "details": "Revenue Growth: 9.68%, Earnings Growth: -18.09%"
+    },
+    "financial_health_signal": {
+      "signal": "bullish",
+      "details": "Current Ratio: 2.38, D/E: 0.33"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $326,796,215.30, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "30%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "50%",
+      "metrics": {
+        "adx": 50.15670945712718,
+        "trend_strength": 0.5015670945712718
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.2064548643972177,
+        "price_vs_bb": 0.5639669964715774,
+        "rsi_14": 55.27488855869243,
+        "rsi_28": 67.17352415026832
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.4986261626285504,
+        "momentum_3m": 0.9783467146150764,
+        "momentum_6m": 1.0449588729886752,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 1.062271266130678,
+        "volatility_regime": 1.268355556383171,
+        "volatility_z_score": 0.9118932203290931,
+        "atr_ratio": 0.09691033604077082
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.01584530644135906,
+        "kurtosis": -1.2321412440354427
+      }
+    }
+  }
+}
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators show bullish momentum with 30% confidence",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": "None",
+  "llm_analysis": "None",
+  "llm_reasoning": "None",
+  "mixed_confidence_diff": 0.0,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators show bullish momentum with 30% confidence",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Balanced debate with strong arguments on both sides"
+}
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 5,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5057989872528077,
+    "value_at_risk_95": -0.03266617199093952,
+    "max_drawdown": -0.18952618453865333,
+    "market_risk_score": 5,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "neutral"
+  },
+  "reasoning": "Risk Score 5/10: Market Risk=5, Volatility=50.58%, VaR=-3.27%, Max Drawdown=-18.95%, Debate Signal=neutral"
+}
+2026-03-20 21:21:33 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-20 21:21:33 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:21:33 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:21:33 - agent_state - INFO - portfolio_management_agent
+2026-03-20 21:21:33 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...

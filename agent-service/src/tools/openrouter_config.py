@@ -92,19 +92,56 @@ def set_ai_config(config: Dict):
 def get_client() -> LLMClient:
     """获取LLM客户端"""
     global _client
+    logger.info(f"【get_client】被调用，当前 _client={bool(_client)}, _ai_config={bool(_ai_config)}")
+
     if _client is None:
         # 检查是否有配置
         if _ai_config:
             provider = _ai_config.get("defaultProvider", "zhipu")
             provider_config = _ai_config.get(provider, {})
-            if provider_config.get("apiKey"):
+            api_key = provider_config.get("apiKey", "")
+            logger.info(f"检查配置: provider={provider}, has_key={bool(api_key)}")
+
+            if api_key:
                 _client = PlatformAIClient()
                 PlatformAIClient._ai_config = _ai_config
-                logger.info(f"使用平台AI客户端 ({provider})")
+                logger.info(f"✓ 使用平台AI客户端 ({provider})")
                 return _client
-        
+            else:
+                logger.warning(f"配置了 {provider} 但没有 apiKey")
+        else:
+            logger.warning("_ai_config 为空，检查环境变量...")
+
+        # 检查环境变量作为后备
+        env_key_map = {
+            "zhipu": "ZHIPU_API_KEY",
+            "deepseek": "DEEPSEEK_API_KEY",
+            "qwen": "QWEN_API_KEY",
+            "hunyuan": "HUNYUAN_API_KEY",
+            "kimi": "KIMI_API_KEY",
+        }
+
+        for provider_name, env_key in env_key_map.items():
+            api_key = os.environ.get(env_key, "")
+            if api_key:
+                logger.info(f"✓ 从环境变量找到 {provider_name} 的 API Key")
+                # 创建配置并初始化客户端
+                _ai_config_local = {
+                    "defaultProvider": provider_name,
+                    provider_name: {"apiKey": api_key}
+                }
+                _client = PlatformAIClient()
+                PlatformAIClient._ai_config = _ai_config_local
+                return _client
+
         # 没有配置，使用模拟客户端
-        logger.warning("未配置AI，使用模拟客户端")
+        logger.warning("=" * 50)
+        logger.warning("【警告】未配置AI，使用模拟客户端")
+        logger.warning("请检查：")
+        logger.warning("1. 前端是否正确设置了API Key")
+        logger.warning("2. 是否删除了Python缓存（__pycache__）")
+        logger.warning("3. 是否重启了后端服务")
+        logger.warning("=" * 50)
         _client = MockLLMClient()
     return _client
 

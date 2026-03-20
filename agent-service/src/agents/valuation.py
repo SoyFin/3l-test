@@ -17,9 +17,14 @@ def valuation_agent(state: AgentState):
     metrics = data["financial_metrics"][0]
     current_financial_line_item = data["financial_line_items"][0]
     previous_financial_line_item = data["financial_line_items"][1]
-    market_cap = data["market_cap"]
+    
+    # 安全获取 market_cap，处理 None 或 0 的情况
+    market_cap = data.get("market_cap") or 0
 
     reasoning = {}
+
+    # 安全获取 earnings_growth，使用 .get() 方法并提供默认值
+    earnings_growth = metrics.get("earnings_growth") or 0.05  # 默认 5% 增长率
 
     # Calculate working capital change
     working_capital_change = (current_financial_line_item.get(
@@ -32,7 +37,7 @@ def valuation_agent(state: AgentState):
             'depreciation_and_amortization'),
         capex=current_financial_line_item.get('capital_expenditure'),
         working_capital_change=working_capital_change,
-        growth_rate=metrics["earnings_growth"],
+        growth_rate=earnings_growth,
         required_return=0.15,
         margin_of_safety=0.25
     )
@@ -40,16 +45,24 @@ def valuation_agent(state: AgentState):
     # DCF Valuation
     dcf_value = calculate_intrinsic_value(
         free_cash_flow=current_financial_line_item.get('free_cash_flow'),
-        growth_rate=metrics["earnings_growth"],
+        growth_rate=earnings_growth,
         discount_rate=0.10,
         terminal_growth_rate=0.03,
         num_years=5,
     )
 
     # Calculate combined valuation gap (average of both methods)
-    dcf_gap = (dcf_value - market_cap) / market_cap
-    owner_earnings_gap = (owner_earnings_value - market_cap) / market_cap
-    valuation_gap = (dcf_gap + owner_earnings_gap) / 2
+    # 防止 market_cap 为 0 时除以零错误
+    if market_cap and market_cap > 0:
+        dcf_gap = (dcf_value - market_cap) / market_cap
+        owner_earnings_gap = (owner_earnings_value - market_cap) / market_cap
+        valuation_gap = (dcf_gap + owner_earnings_gap) / 2
+    else:
+        # 如果没有市场数据，设置默认值
+        dcf_gap = 0
+        owner_earnings_gap = 0
+        valuation_gap = 0
+        logger.warning("市场数据不可用（market_cap=0），使用默认估值结果")
 
     if valuation_gap > 0.10:  # Changed from 0.15 to 0.10 (10% undervalued)
         signal = 'bullish'
@@ -126,8 +139,9 @@ def calculate_owner_earnings_value(
         float: 计算得到的公司价值
     """
     try:
-        # 数据有效性检查
-        if not all(isinstance(x, (int, float)) for x in [net_income, depreciation, capex, working_capital_change]):
+        # 数据有效性检查 - 处理 None 值
+        values = [net_income, depreciation, capex, working_capital_change]
+        if not all(v is not None and isinstance(v, (int, float)) for v in values):
             return 0
 
         # 计算初始所有者收益
@@ -192,7 +206,7 @@ def calculate_intrinsic_value(
         float: 计算得到的内在价值
     """
     try:
-        if not isinstance(free_cash_flow, (int, float)) or free_cash_flow <= 0:
+        if free_cash_flow is None or not isinstance(free_cash_flow, (int, float)) or free_cash_flow <= 0:
             return 0
 
         # 调整增长率，确保合理性

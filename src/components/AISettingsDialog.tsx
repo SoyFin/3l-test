@@ -175,7 +175,48 @@ export default function AISettingsDialog({
   const handleSave = async () => {
     setSaving(true)
     try {
+      // 1. 保存到本地存储
       localStorage.setItem('ai_config', JSON.stringify(config))
+      
+      // 2. 同步到后端 Agent 服务（通过前端代理API避免跨域）
+      try {
+        // 构建后端需要的配置格式
+        const backendConfig = {
+          providers: {} as Record<string, { api_key: string }>,
+          default_provider: config.defaultProvider
+        }
+        
+        // 转换配置格式
+        if (config.zhipu?.apiKey) {
+          backendConfig.providers.zhipu = { api_key: config.zhipu.apiKey }
+        }
+        if (config.tencent?.apiKey) {
+          backendConfig.providers.hunyuan = { api_key: config.tencent.apiKey }
+        }
+        if (config.aliyun?.apiKey) {
+          backendConfig.providers.qwen = { api_key: config.aliyun.apiKey }
+        }
+        if (config.byteDance?.apiKey) {
+          backendConfig.providers.deepseek = { api_key: config.byteDance.apiKey }
+        }
+        
+        // 调用前端代理API同步配置到后端
+        const response = await fetch('/api/agent/config', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(backendConfig)
+        })
+        
+        if (response.ok) {
+          console.log('AI配置已同步到后端')
+        } else {
+          console.warn('AI配置同步到后端失败:', await response.text())
+        }
+      } catch (syncError) {
+        console.warn('同步AI配置到后端时出错:', syncError)
+        // 不阻断保存流程
+      }
+      
       onOpenChange(false)
     } finally {
       setSaving(false)
