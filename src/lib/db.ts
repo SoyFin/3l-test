@@ -48,6 +48,52 @@ export interface FundamentalsData {
   financialData?: Record<string, unknown>
 }
 
+/**
+ * 计算最近的周五日期
+ * @param date 参考日期，默认为当前日期
+ * @returns 最近的周五日期（如果今天是周末，返回上周五）
+ */
+export function getLastFriday(date: Date = new Date()): Date {
+  const d = new Date(date)
+  const dayOfWeek = d.getDay()
+  
+  // 0 = 周日, 1 = 周一, ..., 5 = 周五, 6 = 周六
+  // 计算距离周五的天数差
+  let daysToSubtract = 0
+  
+  if (dayOfWeek === 0) {
+    // 周日：取上周五（减2天）
+    daysToSubtract = 2
+  } else if (dayOfWeek === 6) {
+    // 周六：取上周五（减1天）
+    daysToSubtract = 1
+  } else {
+    // 周一到周五：如果今天是周五则返回今天，否则返回本周五
+    // dayOfWeek - 5: 周一= -4, 周二= -3, 周三= -2, 周四= -1, 周五= 0
+    daysToSubtract = dayOfWeek - 5
+    // 如果是负数，说明本周五还没到，取上周五
+    if (daysToSubtract < 0) {
+      daysToSubtract = dayOfWeek + 2 // 周一=3, 周二=4, 周三=5, 周四=6
+    }
+  }
+  
+  d.setDate(d.getDate() - daysToSubtract)
+  d.setHours(0, 0, 0, 0)
+  
+  return d
+}
+
+/**
+ * 标准化日期为UTC midnight，避免时区问题
+ */
+function normalizeToUTCMidnight(date: Date): Date {
+  return new Date(Date.UTC(
+    date.getFullYear(),
+    date.getMonth(),
+    date.getDate()
+  ))
+}
+
 // 获取动量排行（含连续上榜周数）
 export async function getMomentumRankingWithContinuous(): Promise<{
   industry: string
@@ -124,10 +170,16 @@ export async function getMomentumTrend(industry: string, weeks: number = 12): Pr
   weekDate: Date
   score: number
 }[]> {
+  if (!industry || typeof industry !== 'string') {
+    return []
+  }
+  
+  const safeWeeks = Math.max(1, Math.min(weeks, 52)) // 限制范围 1-52
+  
   const history = await prisma.momentumHistory.findMany({
     where: { industry },
     orderBy: { weekDate: 'desc' },
-    take: weeks
+    take: safeWeeks
   })
   
   return history.map(h => ({
@@ -145,19 +197,14 @@ export async function checkDataUploadReminder(): Promise<{
   const lastWeeklyUpload = await getLastUploadDate()
   const lastQuarterlyUpdate = await getLastAllStocksUpdate()
   
-  // 计算本周五
-  const dayOfWeek = now.getDay()
-  const friday = new Date(now)
-  if (dayOfWeek === 0) {
-    friday.setDate(friday.getDate() - 2)  // 上周五
-  } else if (dayOfWeek === 5) {
-    // 今天是周五
-  } else {
-    friday.setDate(friday.getDate() - (dayOfWeek - 5))  // 本周五
-  }
-  friday.setHours(0, 0, 0, 0)
+  // 使用修复后的周五日期计算
+  const friday = getLastFriday(now)
   
-  const weeklyNeeded = !lastWeeklyUpload || new Date(lastWeeklyUpload) < friday
+  // 比较时使用UTC时间，避免时区问题
+  const fridayUTC = normalizeToUTCMidnight(friday)
+  const lastUploadUTC = lastWeeklyUpload ? normalizeToUTCMidnight(new Date(lastWeeklyUpload)) : null
+  
+  const weeklyNeeded = !lastUploadUTC || lastUploadUTC < fridayUTC
   let weeklyMessage = ''
   if (!lastWeeklyUpload) {
     weeklyMessage = '尚未上传周度数据，请上传'
@@ -166,15 +213,15 @@ export async function checkDataUploadReminder(): Promise<{
   }
   
   // 季度检查
-  const month = now.getMonth()
+  const currentYear = now.getFullYear()
   const quarterEnds = [
-    new Date(now.getFullYear(), 2, 31),   // Q1: 3月31日
-    new Date(now.getFullYear(), 5, 30),   // Q2: 6月30日
-    new Date(now.getFullYear(), 8, 30),   // Q3: 9月30日
-    new Date(now.getFullYear(), 11, 31)   // Q4: 12月31日
+    new Date(Date.UTC(currentYear, 2, 31)),   // Q1: 3月31日
+    new Date(Date.UTC(currentYear, 5, 30)),   // Q2: 6月30日
+    new Date(Date.UTC(currentYear, 8, 30)),   // Q3: 9月30日
+    new Date(Date.UTC(currentYear, 11, 31))   // Q4: 12月31日
   ]
   
-  // 找到最近的季度末
+  // 找到最近的已过季度末
   let nearestQuarterEnd: Date | null = null
   for (const qEnd of quarterEnds) {
     if (qEnd <= now) {
@@ -182,11 +229,13 @@ export async function checkDataUploadReminder(): Promise<{
     }
   }
   
-  const quarterlyNeeded = nearestQuarterEnd !== null && (!lastQuarterlyUpdate || new Date(lastQuarterlyUpdate) < nearestQuarterEnd)
+  const quarterlyNeeded = nearestQuarterEnd !== null && 
+    (!lastQuarterlyUpdate || normalizeToUTCMidnight(new Date(lastQuarterlyUpdate)) < nearestQuarterEnd)
+  
   let quarterlyMessage = ''
   if (quarterlyNeeded && nearestQuarterEnd) {
     const qNames = ['一', '二', '三', '四']
-    const qIndex = Math.floor(nearestQuarterEnd.getMonth() / 3)
+    const qIndex = Math.floor(nearestQuarterEnd.getUTCMonth() / 3)
     quarterlyMessage = `需要上传${qNames[qIndex]}季度末的全A数据（截止${nearestQuarterEnd.toISOString().split('T')[0]}）`
   }
   
@@ -197,6 +246,10 @@ export async function checkDataUploadReminder(): Promise<{
 }
 
 export async function saveFundamentals(data: FundamentalsData) {
+  if (!data.code) {
+    throw new Error('股票代码不能为空')
+  }
+  
   return prisma.fundamentals.upsert({
     where: { code: data.code },
     create: data as unknown as Record<string, unknown>,
@@ -205,18 +258,31 @@ export async function saveFundamentals(data: FundamentalsData) {
 }
 
 export async function getFundamentals(code: string) {
+  if (!code) return null
+  
   return prisma.fundamentals.findUnique({
     where: { code }
   })
 }
 
 export async function getMultipleFundamentals(codes: string[]) {
+  if (!codes || !Array.isArray(codes) || codes.length === 0) {
+    return []
+  }
+  
+  // 过滤掉空值
+  const validCodes = codes.filter(c => c && typeof c === 'string')
+  
   return prisma.fundamentals.findMany({
-    where: { code: { in: codes } }
+    where: { code: { in: validCodes } }
   })
 }
 
 export async function setConfig(key: string, value: unknown) {
+  if (!key) {
+    throw new Error('配置键不能为空')
+  }
+  
   return prisma.systemConfig.upsert({
     where: { key },
     create: { key, value: value as Record<string, unknown> },
@@ -225,6 +291,8 @@ export async function setConfig(key: string, value: unknown) {
 }
 
 export async function getConfig(key: string) {
+  if (!key) return null
+  
   const config = await prisma.systemConfig.findUnique({
     where: { key }
   })

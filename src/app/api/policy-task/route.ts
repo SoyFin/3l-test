@@ -1,75 +1,91 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { prisma } from '@/lib/db'
+import { v4 as uuidv4 } from 'uuid'
 
-// 任务状态存储（简化版，实际生产应使用数据库）
-// 使用全局变量存储，确保多个请求间共享
-declare global {
-  var policyTaskState: {
-    batchId: string | null
-    status: string
-    totalTasks: number
-    completedTasks: number
-    failedTasks: number
-    currentIndustry: string | null
-    progress: number
-    paused: boolean
-    error: string | null
-    industries: string[]
-    currentIndex: number
-    startTime: number | null
-  }
+// 任务状态接口定义
+interface TaskProgress {
+  status: string
+  totalTasks: number
+  completedTasks: number
+  failedTasks: number
+  currentIndustry: string | null
+  progress: number
+  paused: boolean
+  error: string | null
+  industries: string[]
+  currentIndex: number
+  startTime: number | null
 }
 
-// 初始化全局状态
-if (!globalThis.policyTaskState) {
-  globalThis.policyTaskState = {
-    batchId: null,
-    status: 'idle',
-    totalTasks: 0,
-    completedTasks: 0,
-    failedTasks: 0,
-    currentIndustry: null,
-    progress: 0,
-    paused: false,
-    error: null,
-    industries: [],
-    currentIndex: 0,
-    startTime: null
-  }
-}
-
-const taskState = globalThis.policyTaskState
-
-// GET - 获取任务状态
+// GET - 获取任务状态（从数据库读取）
 export async function GET(request: NextRequest) {
-  const { searchParams } = new URL(request.url)
-  const batchId = searchParams.get('batchId')
-  
-  if (batchId && taskState.batchId !== batchId) {
-    return NextResponse.json({ success: false, hasTask: false })
-  }
-  
-  if (!taskState.batchId) {
-    return NextResponse.json({ success: true, hasTask: false })
-  }
-  
-  return NextResponse.json({
-    success: true,
-    hasTask: true,
-    batchId: taskState.batchId,
-    progress: {
-      status: taskState.status,
-      totalTasks: taskState.totalTasks,
-      completedTasks: taskState.completedTasks,
-      failedTasks: taskState.failedTasks,
-      currentIndustry: taskState.currentIndustry,
-      progress: taskState.progress,
-      error: taskState.error,
-      paused: taskState.paused,
-      startTime: taskState.startTime,
-      batchId: taskState.batchId
+  try {
+    const { searchParams } = new URL(request.url)
+    const batchId = searchParams.get('batchId')
+    
+    if (!batchId) {
+      // 获取最新的活动任务
+      const latestTask = await prisma.policyTask.findFirst({
+        where: { status: { not: 'completed' } },
+        orderBy: { createdAt: 'desc' }
+      })
+      
+      if (!latestTask) {
+        return NextResponse.json({ success: true, hasTask: false })
+      }
+      
+      return NextResponse.json({
+        success: true,
+        hasTask: true,
+        batchId: latestTask.batchId,
+        progress: {
+          status: latestTask.status,
+          totalTasks: latestTask.totalTasks,
+          completedTasks: latestTask.completedTasks,
+          failedTasks: latestTask.failedTasks,
+          currentIndustry: latestTask.currentIndustry,
+          progress: latestTask.progress,
+          error: latestTask.error,
+          paused: latestTask.paused,
+          startTime: latestTask.startTime?.getTime() || null,
+          batchId: latestTask.batchId
+        }
+      })
     }
-  })
+    
+    // 根据batchId查询任务
+    const task = await prisma.policyTask.findUnique({
+      where: { batchId }
+    })
+    
+    if (!task) {
+      return NextResponse.json({ success: false, hasTask: false, error: '任务不存在' })
+    }
+    
+    return NextResponse.json({
+      success: true,
+      hasTask: true,
+      batchId: task.batchId,
+      progress: {
+        status: task.status,
+        totalTasks: task.totalTasks,
+        completedTasks: task.completedTasks,
+        failedTasks: task.failedTasks,
+        currentIndustry: task.currentIndustry,
+        progress: task.progress,
+        error: task.error,
+        paused: task.paused,
+        startTime: task.startTime?.getTime() || null,
+        batchId: task.batchId
+      }
+    })
+  } catch (error: any) {
+    console.error('Get task status error:', error)
+    return NextResponse.json({
+      success: false,
+      error: error.message || '获取任务状态失败'
+    }, { status: 500 })
+  }
 }
 
 // POST - 启动/暂停/恢复任务
@@ -79,6 +95,18 @@ export async function POST(request: NextRequest) {
     const { action, batchId } = body
     
     if (action === 'start') {
+      // 检查是否有正在运行的任务
+      const runningTask = await prisma.policyTask.findFirst({
+        where: { status: 'running' }
+      })
+      
+      if (runningTask) {
+        return NextResponse.json({
+          success: false,
+          error: '已有任务正在运行，请等待完成或暂停后再试'
+        }, { status: 400 })
+      }
+      
       // 获取需要更新的行业列表
       let industries: string[] = []
       
@@ -108,21 +136,26 @@ export async function POST(request: NextRequest) {
         }, { status: 400 })
       }
       
-      const newBatchId = `batch_${Date.now()}`
+      // 使用UUID生成批次ID，避免高并发下的重复
+      const newBatchId = `batch_${uuidv4()}`
       
-      // 重置状态
-      taskState.batchId = newBatchId
-      taskState.status = 'running'
-      taskState.totalTasks = industries.length
-      taskState.completedTasks = 0
-      taskState.failedTasks = 0
-      taskState.currentIndustry = null
-      taskState.progress = 0
-      taskState.paused = false
-      taskState.error = null
-      taskState.industries = industries
-      taskState.currentIndex = 0
-      taskState.startTime = Date.now()
+      // 创建任务记录到数据库
+      const task = await prisma.policyTask.create({
+        data: {
+          batchId: newBatchId,
+          status: 'running',
+          totalTasks: industries.length,
+          completedTasks: 0,
+          failedTasks: 0,
+          currentIndustry: null,
+          progress: 0,
+          paused: false,
+          error: null,
+          industries: industries,
+          currentIndex: 0,
+          startTime: new Date()
+        }
+      })
       
       return NextResponse.json({
         success: true,
@@ -133,33 +166,63 @@ export async function POST(request: NextRequest) {
     }
     
     if (action === 'pause') {
-      if (taskState.batchId === batchId) {
-        taskState.paused = true
-        taskState.status = 'paused'
+      const task = await prisma.policyTask.findUnique({
+        where: { batchId }
+      })
+      
+      if (!task) {
+        return NextResponse.json({ 
+          success: false, 
+          error: '任务不存在' 
+        }, { status: 404 })
       }
+      
+      await prisma.policyTask.update({
+        where: { batchId },
+        data: { 
+          paused: true, 
+          status: 'paused' 
+        }
+      })
+      
       return NextResponse.json({ success: true, message: '任务已暂停' })
     }
     
     if (action === 'resume') {
-      if (taskState.batchId === batchId) {
-        taskState.paused = false
-        taskState.status = 'running'
+      const task = await prisma.policyTask.findUnique({
+        where: { batchId }
+      })
+      
+      if (!task) {
+        return NextResponse.json({ 
+          success: false, 
+          error: '任务不存在' 
+        }, { status: 404 })
       }
+      
+      await prisma.policyTask.update({
+        where: { batchId },
+        data: { 
+          paused: false, 
+          status: 'running' 
+        }
+      })
+      
       return NextResponse.json({ success: true, message: '任务已恢复' })
     }
     
     if (action === 'calculate') {
       // 手动计算评分
       try {
-        const policies = await (prisma as any).policyEvent?.findMany({
-          where: {
-            publishDate: { gte: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000) }
-          }
-        })
+        // 安全检查表是否存在
+        const policies = await prisma.$queryRaw`
+          SELECT * FROM PolicyEvent 
+          WHERE publishDate >= datetime('now', '-30 days')
+        `
         
         return NextResponse.json({
           success: true,
-          message: `已处理 ${policies?.length || 0} 条政策数据`
+          message: `已处理 ${(policies as any[])?.length || 0} 条政策数据`
         })
       } catch (e: any) {
         return NextResponse.json({
@@ -180,5 +243,17 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// 导出任务状态供worker使用
-export { taskState }
+// 辅助函数：更新任务进度（供worker调用）
+export async function updateTaskProgress(batchId: string, updates: Partial<TaskProgress>) {
+  return prisma.policyTask.update({
+    where: { batchId },
+    data: updates
+  })
+}
+
+// 辅助函数：获取任务信息（供worker调用）
+export async function getTaskByBatchId(batchId: string) {
+  return prisma.policyTask.findUnique({
+    where: { batchId }
+  })
+}
