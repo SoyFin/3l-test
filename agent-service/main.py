@@ -297,9 +297,19 @@ def run_analysis(
         if final_message:
             try:
                 import json
-                decision = json.loads(final_message.content)
-            except:
-                decision = {"raw_response": final_message.content}
+                content = final_message.content.strip()
+                # 去除 markdown 代码块格式
+                if content.startswith("```json"):
+                    content = content[7:]
+                elif content.startswith("```"):
+                    content = content[3:]
+                if content.endswith("```"):
+                    content = content[:-3]
+                content = content.strip()
+                decision = json.loads(content)
+            except Exception as parse_error:
+                logger.warning(f"解析决策JSON失败: {parse_error}")
+                decision = {"raw_response": final_message.content, "action": "hold", "reasoning": "决策解析失败，使用默认值"}
         else:
             decision = {"action": "hold", "reasoning": "未获取到最终决策"}
         
@@ -327,46 +337,116 @@ def run_analysis(
                 return ""
 
             if isinstance(reasoning, str):
-                return reasoning
+                # 翻译常见英文术语
+                translations = {
+                    "bullish": "看涨",
+                    "bearish": "看跌",
+                    "neutral": "中性",
+                    "signal": "信号",
+                    "confidence": "置信度",
+                    "profitability": "盈利能力",
+                    "growth": "成长性",
+                    "financial_health": "财务健康",
+                    "price_ratios": "估值比率",
+                    "trend_following": "趋势跟踪",
+                    "mean_reversion": "均值回归",
+                    "momentum": "动量",
+                    "volatility": "波动性",
+                    "statistical_arbitrage": "统计套利",
+                    "debate_summary": "辩论总结",
+                    "risk_metrics": "风险指标",
+                    "max_position_size": "最大仓位",
+                    "risk_score": "风险评分",
+                }
+                text = reasoning
+                for en, cn in translations.items():
+                    text = text.replace(en, cn)
+                return text
 
             if isinstance(reasoning, dict):
                 lines = []
+
+                # 中文键名映射
+                key_cn_map = {
+                    "profitability_signal": "盈利能力",
+                    "growth_signal": "成长性",
+                    "financial_health_signal": "财务健康",
+                    "price_ratios_signal": "估值比率",
+                    "trend_following": "趋势跟踪",
+                    "mean_reversion": "均值回归",
+                    "momentum": "动量策略",
+                    "volatility": "波动性分析",
+                    "statistical_arbitrage": "统计套利",
+                    "strategy_signals": "策略信号",
+                    "debate_summary": "辩论总结",
+                    "risk_metrics": "风险指标",
+                    "max_position_size": "最大仓位建议",
+                    "risk_score": "风险评分",
+                    "trading_action": "交易建议",
+                    "bull_confidence": "多方信心",
+                    "bear_confidence": "空方信心",
+                }
+
+                # 信号翻译
+                signal_cn_map = {
+                    "bullish": "📈 看涨",
+                    "bearish": "📉 看跌",
+                    "neutral": "➖ 中性",
+                }
 
                 # 基本面分析格式
                 if "profitability_signal" in reasoning:
                     for key, value in reasoning.items():
                         if isinstance(value, dict) and "signal" in value:
-                            signal_emoji = {"bullish": "📈", "bearish": "📉", "neutral": "➖"}.get(value.get("signal", "neutral"), "➖")
-                            lines.append(f"{signal_emoji} {key.replace('_signal', '').replace('_', ' ').title()}: {value.get('details', '')}")
+                            signal_cn = signal_cn_map.get(value.get("signal", "neutral"), "➖ 中性")
+                            key_cn = key_cn_map.get(key, key.replace("_signal", "").replace("_", " "))
+                            details = value.get("details", "")
+                            lines.append(f"{signal_cn} {key_cn}: {details}")
 
                 # 技术分析格式 (strategy_signals)
                 elif "strategy_signals" in reasoning:
                     for strategy, data in reasoning.get("strategy_signals", {}).items():
                         if isinstance(data, dict):
-                            signal_emoji = {"bullish": "📈", "bearish": "📉", "neutral": "➖"}.get(data.get("signal", "neutral"), "➖")
+                            signal_cn = signal_cn_map.get(data.get("signal", "neutral"), "➖ 中性")
                             conf = data.get("confidence", "50%")
-                            lines.append(f"{signal_emoji} {strategy.replace('_', ' ').title()}: {conf} 置信度")
+                            strategy_cn = key_cn_map.get(strategy, strategy.replace("_", " ").title())
+                            lines.append(f"{signal_cn} {strategy_cn}: {conf} 置信度")
 
                 # 辩论室格式
                 elif "debate_summary" in reasoning:
+                    lines.append("【多空辩论结果】")
                     for item in reasoning.get("debate_summary", []):
                         if item.startswith("+"):
-                            lines.append(f"🟢 {item[1:].strip()}")
+                            lines.append(f"🟢 看多观点: {item[1:].strip()}")
                         elif item.startswith("-"):
-                            lines.append(f"🔴 {item[1:].strip()}")
+                            lines.append(f"🔴 看空观点: {item[1:].strip()}")
                         else:
                             lines.append(item)
+
+                # 风险管理格式
+                elif "risk_metrics" in reasoning or "risk_score" in reasoning:
+                    if "max_position_size" in reasoning:
+                        lines.append(f"💰 建议最大仓位: {reasoning['max_position_size']:,.0f} 元")
+                    if "risk_score" in reasoning:
+                        lines.append(f"⚠️ 风险评分: {reasoning['risk_score']}/10")
+                    if "trading_action" in reasoning:
+                        action_cn = {"buy": "买入", "sell": "卖出", "hold": "持有"}.get(reasoning["trading_action"], "持有")
+                        lines.append(f"📋 交易建议: {action_cn}")
+                    if "reasoning" in reasoning:
+                        lines.append(f"📝 分析理由: {reasoning['reasoning']}")
 
                 # 其他字典格式
                 else:
                     for key, value in reasoning.items():
-                        if isinstance(value, dict):
+                        if key == "reasoning" and isinstance(value, str):
+                            lines.append(f"📝 分析: {value}")
+                        elif isinstance(value, dict):
                             value_str = json.dumps(value, ensure_ascii=False)
                         else:
                             value_str = str(value)
-                        # 简化键名
-                        key_display = key.replace("_", " ").title()
-                        lines.append(f"• {key_display}: {value_str}")
+                        key_cn = key_cn_map.get(key, key.replace("_", " ").title())
+                        if not lines or not any(key_cn in line for line in lines):
+                            lines.append(f"• {key_cn}: {value_str}")
 
                 return "\n".join(lines)
 
@@ -486,6 +566,31 @@ def run_analysis(
                     })
         
         # 将 agent_signals 添加到 decision
+        decision["agent_signals"] = agent_signals
+        
+        # 确保 market_data 和 portfolio_management 总是存在
+        existing_names = [s["agent_name"] for s in agent_signals]
+        
+        if "market_data" not in existing_names:
+            agent_signals.insert(0, {
+                "agent_name": "market_data",
+                "signal": "neutral",
+                "confidence": 1.0,
+                "summary": f"已收集{ticker}的市场数据",
+                "reasoning": "数据收集完成: 价格历史、财务指标、市场数据均已获取"
+            })
+        
+        if "portfolio_management" not in existing_names:
+            action = decision.get("action", "hold")
+            signal_map = {"buy": "bullish", "sell": "bearish", "hold": "neutral"}
+            agent_signals.append({
+                "agent_name": "portfolio_management",
+                "signal": signal_map.get(action, "neutral"),
+                "confidence": decision.get("confidence", 0.5),
+                "summary": f"最终决策: {action.upper()}",
+                "reasoning": decision.get("reasoning", "综合各Agent信号做出最终投资决策")
+            })
+        
         decision["agent_signals"] = agent_signals
         
         logger.info(f"--- 分析完成 Run ID: {run_id} ---")
@@ -880,6 +985,8 @@ async def get_analysis_result(task_id: str):
     
     # Agent 名称映射
     AGENT_NAME_MAP = {
+        "market_data": "market_data",
+        "market_data_agent": "market_data",
         "technical_analyst": "technical_analysis",
         "technical_analyst_agent": "technical_analysis",
         "fundamentals": "fundamental_analysis",

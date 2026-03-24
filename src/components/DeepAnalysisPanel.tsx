@@ -249,10 +249,60 @@ export default function DeepAnalysisPanel({
     }
   }, [])
 
+  // 同步AI配置到后端
+  const syncAIConfig = useCallback(async () => {
+    try {
+      const saved = localStorage.getItem('ai_config')
+      if (!saved) return false
+
+      const config = JSON.parse(saved)
+
+      // 构建后端需要的配置格式
+      const backendConfig = {
+        providers: {} as Record<string, { api_key: string }>,
+        default_provider: config.defaultProvider || 'zhipu'
+      }
+
+      // 转换配置格式
+      if (config.zhipu?.apiKey) {
+        backendConfig.providers.zhipu = { api_key: config.zhipu.apiKey }
+      }
+      if (config.tencent?.apiKey) {
+        backendConfig.providers.hunyuan = { api_key: config.tencent.apiKey }
+      }
+      if (config.aliyun?.apiKey) {
+        backendConfig.providers.qwen = { api_key: config.aliyun.apiKey }
+      }
+      if (config.byteDance?.apiKey) {
+        backendConfig.providers.deepseek = { api_key: config.byteDance.apiKey }
+      }
+
+      // 如果没有任何provider配置，返回false
+      if (Object.keys(backendConfig.providers).length === 0) {
+        return false
+      }
+
+      // 同步到后端
+      const response = await fetch('/api/agent/config', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(backendConfig)
+      })
+
+      return response.ok
+    } catch (e) {
+      console.error('同步AI配置失败:', e)
+      return false
+    }
+  }, [])
+
   // 启动分析
   const startAnalysis = useCallback(async () => {
     if (isRunning || !stockCode) return
-    
+
+    // 先同步AI配置到后端
+    await syncAIConfig()
+
     setIsRunning(true)
     setProgress(0)
     setFinalDecision(null)
@@ -261,7 +311,7 @@ export default function DeepAnalysisPanel({
     setAgentResults({})
     setSelectedAgent(null)
     pollingCountRef.current = 0
-    
+
     try {
       const response = await fetch('/api/agent/analyze', {
         method: 'POST',

@@ -9514,3 +9514,618 @@
 2026-03-24 15:56:49 - agent_state - INFO - portfolio_management_agent
 2026-03-24 15:57:08 - agent_state - INFO - portfolio_management_agent
 2026-03-24 15:57:08 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-24 19:14:29 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-24 19:14:39 - agent_state - INFO - {
+  "ticker": "SH600396",
+  "start_date": "2025-03-23",
+  "end_date": "2026-03-23",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSH600396\u6536\u96c6\u4e86\u4ece2025-03-23\u52302026-03-23\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-24 19:14:39 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-24 19:14:39 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-24 19:14:39 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 0.25%, Net Margin: 5.99%, Op Margin: 7.43%"
+    },
+    "growth_signal": {
+      "signal": "bullish",
+      "details": "Revenue Growth: -1.72%, Earnings Growth: 226.60%"
+    },
+    "financial_health_signal": {
+      "signal": "neutral",
+      "details": "Current Ratio: 0.42, D/E: 0.69"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-24 19:14:39 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-24 19:14:39 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-24 19:14:39 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-24 19:14:39 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $20,750,580,332.92, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-24 19:14:39 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-24 19:14:40 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "15%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "86%",
+      "metrics": {
+        "adx": 85.63716464726274,
+        "trend_strength": 0.8563716464726273
+      }
+    },
+    "mean_reversion": {
+      "signal": "bearish",
+      "confidence": "99%",
+      "metrics": {
+        "z_score": 3.9613146924737315,
+        "price_vs_bb": 1.138237420800314,
+        "rsi_14": 93.07875894988067,
+        "rsi_28": 90.33613445378151
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.8266946532824025,
+        "momentum_3m": 0.8781646771994398,
+        "momentum_6m": 0.7892593938119021,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "bearish",
+      "confidence": "84%",
+      "metrics": {
+        "historical_volatility": 0.8231775606823845,
+        "volatility_regime": 2.729230761008239,
+        "volatility_z_score": 2.5187039541222904,
+        "atr_ratio": 0.05629276383993365
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": 0.975646696395862,
+        "kurtosis": 0.10938616081195202
+      }
+    }
+  }
+}
+2026-03-24 19:14:40 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-24 19:14:40 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-24 19:14:40 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-24 19:14:40 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-24 19:14:40 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-24 19:14:40 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-24 19:14:40 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.35,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Strong fundamentals with 50% confidence",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-24 19:14:40 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-24 19:14:40 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-24 19:14:40 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-24 19:14:48 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": 0.35,
+  "bull_confidence": 0.35,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.04999999999999999,
+  "llm_score": 0.5,
+  "llm_analysis": "\u4ece\u6280\u672f\u5206\u6790\u7684\u89d2\u5ea6\u6765\u770b\uff0c\u718a\u5e02\u89c2\u70b9\u8ba4\u4e3a\u6280\u672f\u6027\u53cd\u5f39\u53ef\u80fd\u662f\u6682\u65f6\u7684\uff0c\u5e76\u6697\u793a\u53ef\u80fd\u5b58\u5728\u53cd\u8f6c\uff0c\u8fd9\u53cd\u6620\u4e86\u5e02\u573a\u77ed\u671f\u5185\u53ef\u80fd\u9762\u4e34\u7684\u98ce\u9669\u3002\u7136\u800c\uff0c\u6280\u672f\u5206\u6790\u901a\u5e38\u96be\u4ee5\u51c6\u786e\u9884\u6d4b\u5e02\u573a\u77ed\u671f\u5185\u7684\u8d70\u52bf\uff0c\u56e0\u6b64\u8fd9\u4e00\u89c2\u70b9\u7684\u53ef\u4fe1\u5ea6\u4e0d\u9ad8\u3002\u57fa\u672c\u9762\u5206\u6790\u4e2d\uff0c\u718a\u5e02\u89c2\u70b9\u8ba4\u4e3a\u5f53\u524d\u7684\u57fa\u672c\u9762\u53ef\u80fd\u65e0\u6cd5\u6301\u7eed\uff0c\u5e02\u573a\u60c5\u7eea\u8fc7\u4e8e\u4e50\u89c2\uff0c\u8fd9\u53ef\u80fd\u5bfc\u81f4\u672a\u6765\u51fa\u73b0\u98ce\u9669\u3002\u8fd9\u4e00\u89c2\u70b9\u5728\u57fa\u672c\u9762\u5206\u6790\u4e2d\u8f83\u4e3a\u5408\u7406\uff0c\u4f46\u4fe1\u5fc3\u6307\u6570\u8f83\u4f4e\u3002\u76f8\u6bd4\u4e4b\u4e0b\uff0c\u725b\u5e02\u89c2\u70b9\u8ba4\u4e3a\u6280\u672f\u6307\u6807\u53ef\u80fd\u8fc7\u4e8e\u4fdd\u5b88\uff0c\u5b58\u5728\u4e70\u5165\u673a\u4f1a\uff0c\u57fa\u672c\u9762\u5206\u6790\u4e2d\u6301\u6709\u8f83\u5f3a\u4fe1\u5fc3\uff0c\u4e14\u5e02\u573a\u60c5\u7eea\u53ef\u80fd\u8fc7\u4e8e\u60b2\u89c2\uff0c\u8fd9\u53ef\u80fd\u5bfc\u81f4\u4ef7\u503c\u673a\u4f1a\u7684\u51fa\u73b0\u3002\u8fd9\u4e9b\u89c2\u70b9\u5728\u903b\u8f91\u4e0a\u5177\u6709\u4e00\u5b9a\u7684\u5408\u7406\u6027\uff0c\u4f46\u4fe1\u5fc3\u6307\u6570\u76f8\u5bf9\u8f83\u4f4e\u3002\u7efc\u5408\u6765\u770b\uff0c\u718a\u5e02\u89c2\u70b9\u5728\u57fa\u672c\u9762\u5206\u6790\u65b9\u9762\u66f4\u4e3a\u5408\u7406\uff0c\u4f46\u4fe1\u5fc3\u4e0d\u8db3\uff0c\u56e0\u6b64\u7ed9\u51fa\u4e2d\u7b49\u53ef\u4fe1\u5ea6\u8bc4\u5206\u3002",
+  "llm_reasoning": "\u7efc\u5408\u8003\u8651\u53cc\u65b9\u89c2\u70b9\uff0c\u718a\u5e02\u89c2\u70b9\u5728\u57fa\u672c\u9762\u5206\u6790\u4e0a\u8f83\u4e3a\u5408\u7406\uff0c\u4f46\u4fe1\u5fc3\u6307\u6570\u8f83\u4f4e\uff0c\u800c\u725b\u5e02\u89c2\u70b9\u5728\u6280\u672f\u5206\u6790\u4e0a\u5177\u6709\u4e00\u5b9a\u7684\u5408\u7406\u6027\uff0c\u4f46\u4fe1\u5fc3\u4e5f\u4e0d\u8db3\u3002\u56e0\u6b64\uff0c\u7ed9\u51fa\u4e2d\u7b49\u53ef\u4fe1\u5ea6\u8bc4\u5206\u3002",
+  "mixed_confidence_diff": 0.185,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Strong fundamentals with 50% confidence",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bullish arguments more convincing"
+}
+2026-03-24 19:14:48 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-24 19:14:48 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-24 19:14:48 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 6,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.521926266935345,
+    "value_at_risk_95": -0.033419023136246895,
+    "max_drawdown": -0.2313829787234042,
+    "market_risk_score": 6,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.35,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.35,
+    "debate_signal": "bullish"
+  },
+  "reasoning": "Risk Score 6/10: Market Risk=6, Volatility=52.19%, VaR=-3.34%, Max Drawdown=-23.14%, Debate Signal=bullish"
+}
+2026-03-24 19:14:48 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-24 19:14:48 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-24 19:14:48 - agent_state - INFO - portfolio_management_agent
+2026-03-24 19:15:08 - agent_state - INFO - portfolio_management_agent
+2026-03-24 19:15:08 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-24 20:10:36 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "ticker": "SH600396",
+  "start_date": "2025-03-23",
+  "end_date": "2026-03-23",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSH600396\u6536\u96c6\u4e86\u4ece2025-03-23\u52302026-03-23\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": "50%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 0.25%, Net Margin: 5.99%, Op Margin: 7.43%"
+    },
+    "growth_signal": {
+      "signal": "bullish",
+      "details": "Revenue Growth: -1.72%, Earnings Growth: 226.60%"
+    },
+    "financial_health_signal": {
+      "signal": "neutral",
+      "details": "Current Ratio: 0.42, D/E: 0.69"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $20,750,580,332.92, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-24 20:10:51 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "15%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "86%",
+      "metrics": {
+        "adx": 85.63716464726274,
+        "trend_strength": 0.8563716464726273
+      }
+    },
+    "mean_reversion": {
+      "signal": "bearish",
+      "confidence": "99%",
+      "metrics": {
+        "z_score": 3.9613146924737315,
+        "price_vs_bb": 1.138237420800314,
+        "rsi_14": 93.07875894988067,
+        "rsi_28": 90.33613445378151
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.8266946532824025,
+        "momentum_3m": 0.8781646771994398,
+        "momentum_6m": 0.7892593938119021,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "bearish",
+      "confidence": "84%",
+      "metrics": {
+        "historical_volatility": 0.8231775606823845,
+        "volatility_regime": 2.729230761008239,
+        "volatility_z_score": 2.5187039541222904,
+        "atr_ratio": 0.05629276383993365
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": 0.975646696395862,
+        "kurtosis": 0.10938616081195202
+      }
+    }
+  }
+}
+2026-03-24 20:10:51 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-24 20:10:51 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-24 20:10:51 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.35,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Strong fundamentals with 50% confidence",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-24 20:10:51 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-24 20:10:51 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-24 20:10:51 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-24 20:10:57 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": 0.35,
+  "bull_confidence": 0.35,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.04999999999999999,
+  "llm_score": 0.5,
+  "llm_analysis": "\u718a\u5e02\u89c2\u70b9\u8ba4\u4e3a\u6280\u672f\u53cd\u5f39\u53ef\u80fd\u662f\u6682\u65f6\u7684\uff0c\u6697\u793a\u53ef\u80fd\u53d1\u751f\u9006\u8f6c\uff1b\u5f53\u524d\u7684\u57fa\u672c\u9762\u53ef\u80fd\u65e0\u6cd5\u6301\u7eed\uff0c\u5e02\u573a\u60c5\u7eea\u53ef\u80fd\u8fc7\u4e8e\u4e50\u89c2\uff0c\u8868\u660e\u6f5c\u5728\u98ce\u9669\uff1b\u5f53\u524d\u4f30\u503c\u53ef\u80fd\u672a\u5b8c\u5168\u53cd\u6620\u4e0b\u884c\u98ce\u9669\u3002\u8fd9\u4e9b\u89c2\u70b9\u5f3a\u8c03\u4e86\u5e02\u573a\u53ef\u80fd\u5b58\u5728\u7684\u77ed\u671f\u6ce2\u52a8\u6027\u548c\u4e0d\u786e\u5b9a\u6027\u3002\u725b\u5e02\u89c2\u70b9\u5219\u8ba4\u4e3a\u6280\u672f\u6307\u6807\u53ef\u80fd\u8f83\u4e3a\u4fdd\u5b88\uff0c\u63d0\u4f9b\u4e86\u4e70\u5165\u673a\u4f1a\uff1b\u57fa\u672c\u9762\u5f3a\u52b2\uff0c\u670950%\u7684\u4fe1\u5fc3\uff1b\u5e02\u573a\u60c5\u7eea\u53ef\u80fd\u8fc7\u4e8e\u60b2\u89c2\uff0c\u521b\u9020\u4e86\u4ef7\u503c\u673a\u4f1a\uff1b\u5f53\u524d\u4f30\u503c\u53ef\u80fd\u672a\u5b8c\u5168\u53cd\u6620\u589e\u957f\u6f5c\u529b\u3002\u8fd9\u4e9b\u89c2\u70b9\u5f3a\u8c03\u4e86\u5e02\u573a\u7684\u6f5c\u5728\u4ef7\u503c\u548c\u589e\u957f\u6f5c\u529b\u3002\u4ece\u5206\u6790\u6765\u770b\uff0c\u718a\u5e02\u89c2\u70b9\u5f3a\u8c03\u4e86\u98ce\u9669\u548c\u4e0d\u786e\u5b9a\u6027\uff0c\u800c\u725b\u5e02\u89c2\u70b9\u5f3a\u8c03\u4e86\u4ef7\u503c\u548c\u6f5c\u529b\u3002",
+  "llm_reasoning": "\u8bc4\u5206\u8003\u8651\u4e86\u4e24\u79cd\u89c2\u70b9\u7684\u5e73\u8861\uff0c\u718a\u5e02\u89c2\u70b9\u5173\u6ce8\u98ce\u9669\uff0c\u725b\u5e02\u89c2\u70b9\u5173\u6ce8\u6f5c\u529b\uff0c\u4e24\u8005\u90fd\u6709\u4e00\u5b9a\u7684\u5408\u7406\u6027\uff0c\u56e0\u6b64\u7ed9\u51fa\u4e2d\u95f4\u7684\u8bc4\u5206\u3002",
+  "mixed_confidence_diff": 0.185,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Strong fundamentals with 50% confidence",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bullish arguments more convincing"
+}
+2026-03-24 20:10:57 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-24 20:10:57 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-24 20:10:57 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 6,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.521926266935345,
+    "value_at_risk_95": -0.033419023136246895,
+    "max_drawdown": -0.2313829787234042,
+    "market_risk_score": 6,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.35,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.35,
+    "debate_signal": "bullish"
+  },
+  "reasoning": "Risk Score 6/10: Market Risk=6, Volatility=52.19%, VaR=-3.34%, Max Drawdown=-23.14%, Debate Signal=bullish"
+}
+2026-03-24 20:10:57 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-24 20:10:57 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-24 20:10:57 - agent_state - INFO - portfolio_management_agent
+2026-03-24 20:11:12 - agent_state - INFO - portfolio_management_agent
+2026-03-24 20:11:12 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
+2026-03-24 20:12:12 - agent_state - INFO - 🔄 Market Data Agent is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "ticker": "SZ001896",
+  "start_date": "2025-03-23",
+  "end_date": "2026-03-23",
+  "data_collected": {
+    "price_history": true,
+    "financial_metrics": true,
+    "financial_statements": true,
+    "market_data": true
+  },
+  "summary": "\u4e3aSZ001896\u6536\u96c6\u4e86\u4ece2025-03-23\u52302026-03-23\u7684\u5e02\u573a\u6570\u636e\uff0c\u5305\u62ec\u4ef7\u683c\u5386\u53f2\u3001\u8d22\u52a1\u6307\u6807\u548c\u5e02\u573a\u4fe1\u606f"
+}
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Fundamentals Analyst is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "25%",
+  "reasoning": {
+    "profitability_signal": {
+      "signal": "bearish",
+      "details": "ROE: 8.35%, Net Margin: 3.94%, Op Margin: 5.97%"
+    },
+    "growth_signal": {
+      "signal": "neutral",
+      "details": "Revenue Growth: -7.71%, Earnings Growth: 0.00%"
+    },
+    "financial_health_signal": {
+      "signal": "neutral",
+      "details": "Current Ratio: 0.51, D/E: 0.88"
+    },
+    "price_ratios_signal": {
+      "signal": "bullish",
+      "details": "P/E: N/A, P/B: N/A, P/S: N/A"
+    }
+  }
+}
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Sentiment Analyst is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - ✅ Fundamentals Analyst analysis completed
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Valuation Agent is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Technical Analyst is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "0%",
+  "reasoning": {
+    "dcf_analysis": {
+      "signal": "neutral",
+      "details": "Intrinsic Value: $47,000,666,915.98, Market Cap: $0.00, Gap: 0.0%"
+    },
+    "owner_earnings_analysis": {
+      "signal": "neutral",
+      "details": "Owner Earnings Value: $0.00, Market Cap: $0.00, Gap: 0.0%"
+    }
+  }
+}
+2026-03-24 20:12:30 - agent_state - INFO - ✅ Valuation Agent analysis completed
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "17%",
+  "strategy_signals": {
+    "trend_following": {
+      "signal": "bullish",
+      "confidence": "53%",
+      "metrics": {
+        "adx": 53.336195432247884,
+        "trend_strength": 0.5333619543224788
+      }
+    },
+    "mean_reversion": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "z_score": 1.5893349276694555,
+        "price_vs_bb": 0.7499058489795128,
+        "rsi_14": 65.05652620760534,
+        "rsi_28": 76.3060686015831
+      }
+    },
+    "momentum": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "momentum_1m": 0.7210880259811009,
+        "momentum_3m": 1.1426834650872613,
+        "momentum_6m": 1.1628636822762304,
+        "volume_momentum": 1.0
+      }
+    },
+    "volatility": {
+      "signal": "bearish",
+      "confidence": "50%",
+      "metrics": {
+        "historical_volatility": 0.9984334756308739,
+        "volatility_regime": 1.4847097428651037,
+        "volatility_z_score": 1.4950025556323252,
+        "atr_ratio": 0.08760024676125848
+      }
+    },
+    "statistical_arbitrage": {
+      "signal": "neutral",
+      "confidence": "50%",
+      "metrics": {
+        "hurst_exponent": 4.410881380903355e-15,
+        "skewness": -0.24600546359305506,
+        "kurtosis": 0.07026426055748895
+      }
+    }
+  }
+}
+2026-03-24 20:12:30 - agent_state - INFO - ✅ Technical Analyst analysis completed
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "signal": "neutral",
+  "confidence": "100%",
+  "reasoning": "Based on 0 recent news articles, sentiment score: 0.00"
+}
+2026-03-24 20:12:30 - agent_state - INFO - ✅ Sentiment Analyst analysis completed
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Bearish Researcher is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Bullish Researcher is analyzing...
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "perspective": "bearish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical rally may be temporary, suggesting potential reversal",
+    "Current fundamental strength may not be sustainable",
+    "Market sentiment may be overly optimistic, indicating potential risks",
+    "Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bearish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-24 20:12:30 - agent_state - INFO - {
+  "perspective": "bullish",
+  "confidence": 0.3,
+  "thesis_points": [
+    "Technical indicators may be conservative, presenting buying opportunities",
+    "Company fundamentals show potential for improvement",
+    "Market sentiment may be overly pessimistic, creating value opportunities",
+    "Current valuation may not fully reflect growth potential"
+  ],
+  "reasoning": "Bullish thesis based on comprehensive analysis of technical, fundamental, sentiment, and valuation factors"
+}
+2026-03-24 20:12:30 - agent_state - INFO - ✅ Bearish Researcher analysis completed
+2026-03-24 20:12:30 - agent_state - INFO - ✅ Bullish Researcher analysis completed
+2026-03-24 20:12:30 - agent_state - INFO - 🔄 Debate Room is analyzing...
+2026-03-24 20:12:41 - agent_state - INFO - {
+  "signal": "bullish",
+  "confidence": 0.3,
+  "bull_confidence": 0.3,
+  "bear_confidence": 0.3,
+  "confidence_diff": 0.0,
+  "llm_score": 0.5,
+  "llm_analysis": "\u718a\u5e02\u89c2\u70b9\u8ba4\u4e3a\u6280\u672f\u6027\u53cd\u5f39\u53ef\u80fd\u662f\u6682\u65f6\u7684\uff0c\u6697\u793a\u53ef\u80fd\u53d1\u751f\u53cd\u8f6c\uff1b\u5f53\u524d\u7684\u57fa\u672c\u9762\u53ef\u80fd\u65e0\u6cd5\u6301\u7eed\uff1b\u5e02\u573a\u60c5\u7eea\u53ef\u80fd\u8fc7\u4e8e\u4e50\u89c2\uff0c\u8868\u660e\u5b58\u5728\u6f5c\u5728\u98ce\u9669\uff1b\u5f53\u524d\u4f30\u503c\u53ef\u80fd\u672a\u80fd\u5b8c\u5168\u53cd\u6620\u4e0b\u884c\u98ce\u9669\u3002\u725b\u5e02\u89c2\u70b9\u5219\u8ba4\u4e3a\u6280\u672f\u6307\u6807\u53ef\u80fd\u4fdd\u5b88\uff0c\u63d0\u4f9b\u4e86\u4e70\u5165\u673a\u4f1a\uff1b\u516c\u53f8\u57fa\u672c\u9762\u663e\u793a\u51fa\u6539\u5584\u7684\u6f5c\u529b\uff1b\u5e02\u573a\u60c5\u7eea\u53ef\u80fd\u8fc7\u4e8e\u60b2\u89c2\uff0c\u521b\u9020\u4e86\u4ef7\u503c\u673a\u4f1a\uff1b\u5f53\u524d\u4f30\u503c\u53ef\u80fd\u672a\u80fd\u5b8c\u5168\u53cd\u6620\u589e\u957f\u6f5c\u529b\u3002\u4ece\u6280\u672f\u5206\u6790\u7684\u89d2\u5ea6\u6765\u770b\uff0c\u718a\u5e02\u89c2\u70b9\u5f3a\u8c03\u4e86\u5e02\u573a\u77ed\u671f\u5185\u7684\u4e0d\u786e\u5b9a\u6027\uff0c\u800c\u725b\u5e02\u89c2\u70b9\u5219\u66f4\u5173\u6ce8\u957f\u671f\u7684\u57fa\u672c\u9762\u548c\u4f30\u503c\u3002\u4ece\u57fa\u672c\u9762\u5206\u6790\u7684\u89d2\u5ea6\u6765\u770b\uff0c\u4e24\u8005\u90fd\u63d0\u51fa\u4e86\u5e02\u573a\u53ef\u80fd\u5b58\u5728\u7684\u6781\u7aef\u60c5\u7eea\uff0c\u4f46\u718a\u5e02\u89c2\u70b9\u66f4\u503e\u5411\u4e8e\u77ed\u671f\u98ce\u9669\uff0c\u800c\u725b\u5e02\u89c2\u70b9\u5219\u66f4\u770b\u91cd\u957f\u671f\u589e\u957f\u6f5c\u529b\u3002",
+  "llm_reasoning": "\u8bc4\u52060.5\u8868\u660e\u4e24\u79cd\u89c2\u70b9\u90fd\u6709\u5176\u5408\u7406\u6027\uff0c\u4f46\u90fd\u6ca1\u6709\u8db3\u591f\u7684\u8bc1\u636e\u6765\u5b8c\u5168\u8bf4\u670d\u5e02\u573a\u3002\u718a\u5e02\u89c2\u70b9\u5173\u6ce8\u77ed\u671f\u98ce\u9669\uff0c\u800c\u725b\u5e02\u89c2\u70b9\u5173\u6ce8\u957f\u671f\u589e\u957f\uff0c\u4e24\u8005\u90fd\u9700\u8981\u66f4\u591a\u7684\u5e02\u573a\u6570\u636e\u548c\u8bc1\u636e\u6765\u652f\u6301\u5176\u89c2\u70b9\u3002",
+  "mixed_confidence_diff": 0.15,
+  "debate_summary": [
+    "Bullish Arguments:",
+    "+ Technical indicators may be conservative, presenting buying opportunities",
+    "+ Company fundamentals show potential for improvement",
+    "+ Market sentiment may be overly pessimistic, creating value opportunities",
+    "+ Current valuation may not fully reflect growth potential",
+    "\nBearish Arguments:",
+    "- Technical rally may be temporary, suggesting potential reversal",
+    "- Current fundamental strength may not be sustainable",
+    "- Market sentiment may be overly optimistic, indicating potential risks",
+    "- Current valuation may not fully reflect downside risks"
+  ],
+  "reasoning": "Bullish arguments more convincing"
+}
+2026-03-24 20:12:41 - agent_state - INFO - ✅ Debate Room analysis completed
+2026-03-24 20:12:41 - agent_state - INFO - 🔄 Risk Manager is analyzing...
+2026-03-24 20:12:41 - agent_state - INFO - {
+  "max_position_size": 12500.0,
+  "risk_score": 6,
+  "trading_action": "hold",
+  "risk_metrics": {
+    "volatility": 0.5654968490041994,
+    "value_at_risk_95": -0.039094650205761416,
+    "max_drawdown": -0.25867052023121384,
+    "market_risk_score": 6,
+    "stress_test_results": {
+      "market_crash": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "moderate_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      },
+      "slight_decline": {
+        "potential_loss": -0.0,
+        "portfolio_impact": -0.0
+      }
+    }
+  },
+  "debate_analysis": {
+    "bull_confidence": 0.3,
+    "bear_confidence": 0.3,
+    "debate_confidence": 0.3,
+    "debate_signal": "bullish"
+  },
+  "reasoning": "Risk Score 6/10: Market Risk=6, Volatility=56.55%, VaR=-3.91%, Max Drawdown=-25.87%, Debate Signal=bullish"
+}
+2026-03-24 20:12:41 - agent_state - INFO - ✅ Risk Manager analysis completed
+2026-03-24 20:12:41 - agent_state - INFO - 🔄 portfolio_management_agent: --- Executing Portfolio Manager --- is analyzing...
+2026-03-24 20:12:41 - agent_state - INFO - portfolio_management_agent
+2026-03-24 20:13:00 - agent_state - INFO - portfolio_management_agent
+2026-03-24 20:13:00 - agent_state - INFO - 🔄 portfolio_management_agent: --- Portfolio Manager Completed --- is analyzing...
