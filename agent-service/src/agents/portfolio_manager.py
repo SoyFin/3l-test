@@ -89,75 +89,75 @@ def portfolio_management_agent(state: AgentState):
     macro_news_agent_message_obj = get_latest_message_by_name(
         cleaned_messages_for_processing, "macro_news_agent")
 
-    system_message_content = """You are a portfolio manager making final trading decisions.
-            Your job is to make a trading decision based on the team's analysis while strictly adhering
-            to risk management constraints.
+    system_message_content = """你是一位专业的投资组合经理，负责做出最终交易决策。
+            你的任务是根据团队的分析结果做出交易决策，同时严格遵守风险管理约束。
 
-            RISK MANAGEMENT CONSTRAINTS:
-            - You MUST NOT exceed the max_position_size specified by the risk manager
-            - You MUST follow the trading_action (buy/sell/hold) recommended by risk management
-            - These are hard constraints that cannot be overridden by other signals
+            风险管理约束：
+            - 你绝不能超过风险管理经理指定的最大持仓量(max_position_size)
+            - 你必须遵循风险管理推荐的交易行为(buy/sell/hold)
+            - 这些是硬性约束，不能被其他信号覆盖
 
-            When weighing the different signals for direction and timing:
-            1. Valuation Analysis (30% weight)
-            2. Fundamental Analysis (25% weight)
-            3. Technical Analysis (20% weight)
-            4. Macro Analysis (15% weight) - This encompasses TWO inputs:
-               a) General Macro Environment (from Macro Analyst Agent, tool-based)
-               b) Daily Market-Wide News Summary (from Macro News Agent)
-               Both provide context for external risks and opportunities.
-            5. Sentiment Analysis (10% weight)
+            在权衡不同信号的方向和时机时：
+            1. 估值分析 (权重30%)
+            2. 基本面分析 (权重25%)
+            3. 技术分析 (权重20%)
+            4. 宏观分析 (权重15%) - 包含两个输入：
+               a) 一般宏观环境 (来自宏观分析师Agent，基于工具)
+               b) 每日大盘新闻摘要 (来自宏观新闻Agent)
+               两者都提供外部风险和机会的背景信息。
+            5. 情绪分析 (权重10%)
 
-            The decision process should be:
-            1. First check risk management constraints
-            2. Then evaluate valuation signal
-            3. Then evaluate fundamentals signal
-            4. Consider BOTH the General Macro Environment AND the Daily Market-Wide News Summary.
-            5. Use technical analysis for timing
-            6. Consider sentiment for final adjustment
+            决策流程应该是：
+            1. 首先检查风险管理约束
+            2. 然后评估估值信号
+            3. 然后评估基本面信号
+            4. 同时考虑一般宏观环境和每日大盘新闻摘要
+            5. 使用技术分析判断时机
+            6. 考虑情绪分析进行最终调整
 
-            Provide the following in your output JSON:
+            请在输出的JSON中提供以下内容：
             - "action": "buy" | "sell" | "hold",
-            - "quantity": <positive integer>
-            - "confidence": <float between 0 and 1>
-            - "agent_signals": <list of agent signals including agent name, signal (bullish | bearish | neutral), and their confidence>.
-              IMPORTANT: Your 'agent_signals' list MUST include entries for:
+            - "quantity": <正整数>
+            - "confidence": <0到1之间的浮点数>
+            - "agent_signals": <包含每个agent信号的列表，包括agent名称、信号(bullish | bearish | neutral)和置信度>。
+              重要：你的'agent_signals'列表必须包含以下条目：
                 - "technical_analysis"
                 - "fundamental_analysis"
                 - "sentiment_analysis"
                 - "valuation_analysis"
                 - "risk_management"
-                - "selected_stock_macro_analysis" (representing the tool-based macro input from macro_analyst_agent)
-                - "market_wide_news_summary(沪深300指数)" (representing the daily news summary input from macro_news_agent - provide a brief signal like bullish/bearish/neutral for the news summary itself, or state if it was primarily factored into overall reasoning with confidence reflecting its impact)
-            - "reasoning": <concise explanation of the decision including how you weighted ALL signals, including both macro inputs>
+                - 每个条目必须包含 "agent_name", "signal", "confidence", "summary"(中文摘要)
+            - "reasoning": <用中文简洁解释决策，包括你如何权衡所有信号>
 
-            Trading Rules:
-            - Never exceed risk management position limits
-            - Only buy if you have available cash
-            - Only sell if you have shares to sell
-            - Quantity must be ≤ current position for sells
-            - Quantity must be ≤ max_position_size from risk management"""
+            交易规则：
+            - 永远不要超过风险管理的持仓限制
+            - 只有在有可用现金时才能买入
+            - 只有在有股票时才能卖出
+            - 卖出数量必须≤当前持仓
+            - 买入数量必须≤风险管理的max_position_size
+
+            重要：所有输出内容必须使用中文！"""
     system_message = {
         "role": "system",
         "content": system_message_content
     }
 
-    user_message_content = f"""Based on the team's analysis below, make your trading decision.
+    user_message_content = f"""根据以下团队分析结果，做出你的交易决策。
 
-            Technical Analysis Signal: {technical_content}
-            Fundamental Analysis Signal: {fundamentals_content}
-            Sentiment Analysis Signal: {sentiment_content}
-            Valuation Analysis Signal: {valuation_content}
-            Risk Management Signal: {risk_content}
-            General Macro Analysis (from Macro Analyst Agent): {tool_based_macro_content}
-            Daily Market-Wide News Summary (from Macro News Agent):
+            技术分析信号: {technical_content}
+            基本面分析信号: {fundamentals_content}
+            情绪分析信号: {sentiment_content}
+            估值分析信号: {valuation_content}
+            风险管理信号: {risk_content}
+            宏观分析 (来自宏观分析师Agent): {tool_based_macro_content}
+            大盘新闻摘要 (来自宏观新闻Agent):
             {market_wide_news_summary_content}
 
-            Current Portfolio:
-            Cash: {portfolio['cash']:.2f}
-            Current Position: {portfolio['stock']} shares
+            当前投资组合:
+            现金: {portfolio['cash']:.2f}
+            当前持仓: {portfolio['stock']} 股
 
-            Output JSON only. Ensure 'agent_signals' includes all required agents as per system prompt."""
+            请只输出JSON格式。确保'agent_signals'包含系统提示中要求的所有agent，每个agent都要有中文摘要。"""
     user_message = {
         "role": "user",
         "content": user_message_content

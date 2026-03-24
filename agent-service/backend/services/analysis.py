@@ -39,7 +39,7 @@ def execute_stock_analysis(request: StockAnalysisRequest, run_id: str) -> Dict[s
             agent_name="workflow_manager",
             run_id=run_id,
             timestamp_start=datetime.now(UTC),
-            timestamp_end=datetime.now(UTC),  # 初始化为相同值，稍后更新
+            timestamp_end=datetime.now(UTC),  # 初始化为相同值，稀后更新
             input_state={"request": request.dict()},
             output_state=None  # 稍后更新
         )
@@ -57,25 +57,13 @@ def execute_stock_analysis(request: StockAnalysisRequest, run_id: str) -> Dict[s
                 num_of_news=request.num_of_news
             )
 
-            # 更新工作流日志的结束时间和输出状态
-            # workflow_log.timestamp_end = datetime.now(UTC)
-            # workflow_log.output_state = result
-
-            # 添加到日志存储
-            # log_storage.add_agent_log(workflow_log)
-
+        # 成功完成后更新状态
+        api_state.complete_run(run_id, "completed")
         logger.info(f"股票分析任务完成 (运行ID: {run_id})")
         return result
+        
     except Exception as e:
         logger.error(f"股票分析任务失败: {str(e)}")
-
-        # 在出错时也记录日志
-        # try:
-        #     workflow_log.timestamp_end = datetime.now(UTC)
-        #     workflow_log.output_state = {"error": str(e)}
-        #     log_storage.add_agent_log(workflow_log)
-        # except Exception as log_err:
-        #     logger.error(f"记录错误日志时发生异常: {str(log_err)}")
 
         # 更新运行状态为错误
         api_state.complete_run(run_id, "error")

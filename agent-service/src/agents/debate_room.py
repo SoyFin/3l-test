@@ -86,7 +86,7 @@ def debate_room_agent(state: AgentState):
     logger.info(f"准备让 LLM 分析 {len(all_perspectives)} 个研究员的观点")
 
     llm_prompt = """
-You are a professional financial analyst. Please analyze the following investment researcher perspectives and provide your third-party analysis:
+你是一位专业的金融分析师。请分析以下投资研究员的观点，并提供你的第三方分析：
 
 """
     for perspective, data in all_perspectives.items():
@@ -95,14 +95,14 @@ You are a professional financial analyst. Please analyze the following investmen
             llm_prompt += f"- {point}\n"
 
     llm_prompt += """
-Please provide a JSON response in the following format:
+请以以下JSON格式返回你的分析结果：
 {
-    "analysis": "Your detailed analysis evaluating the pros and cons of each perspective, pointing out the most convincing arguments",
+    "analysis": "你的详细分析，评估每个观点的优缺点，指出最有说服力的论点",
     "score": 0.5,
-    "reasoning": "Brief reason for your score"
+    "reasoning": "你评分的简短理由"
 }
 
-Important: Return ONLY valid JSON, no additional text. Use English only.
+重要：只返回有效的JSON，不要有额外的文本。分析内容请使用中文。
 """
 
     llm_response = None
@@ -112,7 +112,7 @@ Important: Return ONLY valid JSON, no additional text. Use English only.
     try:
         logger.info("开始调用 LLM 获取第三方分析...")
         messages = [
-            {"role": "system", "content": "You are a professional financial analyst. Always respond with valid JSON only."},
+            {"role": "system", "content": "你是一位专业的金融分析师。请始终只返回有效的JSON格式。"},
             {"role": "user", "content": llm_prompt}
         ]
 

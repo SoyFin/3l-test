@@ -178,6 +178,21 @@ function safeSetLocalStorage(key: string, value: string): boolean {
   }
 }
 
+// 将任意值转换为可显示的字符串
+function toDisplayString(value: any): string {
+  if (value === null || value === undefined) return ''
+  if (typeof value === 'string') return value
+  if (typeof value === 'number' || typeof value === 'boolean') return String(value)
+  if (typeof value === 'object') {
+    try {
+      return JSON.stringify(value, null, 2)
+    } catch {
+      return '[对象]'
+    }
+  }
+  return String(value)
+}
+
 export default function DeepAnalysisPanel({
   stockCode,
   stockName,
@@ -289,17 +304,45 @@ export default function DeepAnalysisPanel({
         
         try {
           const statusResponse = await fetch(`/api/agent/analyze?taskId=${data.task_id}`)
-          
+
           if (!statusResponse.ok) {
+            // 如果是404，说明任务不存在（后端重启了），需要重新创建任务
+            if (statusResponse.status === 404) {
+              console.log('任务不存在，重新创建任务...')
+              if (pollingRef.current) {
+                clearInterval(pollingRef.current)
+                pollingRef.current = null
+              }
+              // 清除旧缓存
+              safeSetLocalStorage(getCacheKey(stockCode), '')
+              // 重新启动分析
+              setIsRunning(false)
+              setTimeout(() => startAnalysis(), 1000)
+              return
+            }
             throw new Error('获取状态失败')
           }
-          
+
           const statusData = await statusResponse.json()
-          
+
           if (statusData.status === 'completed') {
             const resultResponse = await fetch(`/api/agent/result/${data.task_id}`)
-            
+
             if (!resultResponse.ok) {
+              // 如果是404，说明结果不存在（后端可能重启了），需要重新分析
+              if (resultResponse.status === 404) {
+                console.log('结果不存在，重新创建任务...')
+                if (pollingRef.current) {
+                  clearInterval(pollingRef.current)
+                  pollingRef.current = null
+                }
+                // 清除旧缓存
+                safeSetLocalStorage(getCacheKey(stockCode), '')
+                // 重新启动分析
+                setIsRunning(false)
+                setTimeout(() => startAnalysis(), 1000)
+                return
+              }
               throw new Error('获取结果失败')
             }
             
@@ -441,14 +484,20 @@ export default function DeepAnalysisPanel({
           </div>
         )}
         
-        {/* Agent卡片网格 - 可点击 */}
+        {/* Agent卡片网格 - 可点击，显示信号 */}
         <div className="grid grid-cols-5 gap-1.5 mt-3">
           {AGENTS.map(agent => {
             const result = agentResults[agent.id]
             const status = result?.status || 'pending'
             const isSelected = selectedAgent === agent.id
             const Icon = agent.icon
-            
+
+            // 获取信号信息
+            const signal = result?.signal
+            const confidence = result?.confidence
+            const signalColor = signal === 'bullish' ? 'text-red-500' :
+                               signal === 'bearish' ? 'text-green-500' : 'text-yellow-500'
+
             return (
               <div
                 key={agent.id}
@@ -480,6 +529,12 @@ export default function DeepAnalysisPanel({
                 <span className="text-[10px] font-medium truncate w-full text-center">
                   {agent.name.replace('分析师', '').replace('师', '').replace('员', '')}
                 </span>
+                {/* 显示信号和置信度 */}
+                {status === 'completed' && confidence !== undefined && (
+                  <span className={cn("text-[9px] font-bold", isSelected ? "text-white/90" : signalColor)}>
+                    {(confidence * 100).toFixed(0)}%
+                  </span>
+                )}
               </div>
             )
           })}
@@ -525,17 +580,10 @@ export default function DeepAnalysisPanel({
                   )}
                 </div>
                 
-                {selectedAgentResult.summary && (
-                  <div className="p-2.5 rounded-lg bg-muted/30">
-                    <div className="text-xs font-medium mb-1">分析摘要</div>
-                    <p className="text-xs text-muted-foreground">{selectedAgentResult.summary}</p>
-                  </div>
-                )}
-                
                 {selectedAgentResult.reasoning && (
                   <div className="p-2.5 rounded-lg bg-muted/30">
                     <div className="text-xs font-medium mb-1">详细分析</div>
-                    <p className="text-xs text-muted-foreground whitespace-pre-wrap">{selectedAgentResult.reasoning}</p>
+                    <pre className="text-xs text-muted-foreground whitespace-pre-wrap overflow-auto max-h-60">{toDisplayString(selectedAgentResult.reasoning)}</pre>
                   </div>
                 )}
               </div>
@@ -560,7 +608,7 @@ export default function DeepAnalysisPanel({
                   <Progress value={finalDecision.confidence * 100} className="flex-1 h-1.5" />
                 </div>
                 {finalDecision.reasoning && (
-                  <div className="mt-2 p-2 rounded bg-white/50 text-sm">{finalDecision.reasoning}</div>
+                  <div className="mt-2 p-2 rounded bg-white/50 text-sm whitespace-pre-wrap">{toDisplayString(finalDecision.reasoning)}</div>
                 )}
               </div>
 
@@ -583,42 +631,6 @@ export default function DeepAnalysisPanel({
                       <span className="text-muted-foreground">止盈位：</span>
                       <span className="font-medium text-red-600">{(finalDecision.risk_assessment.take_profit * 100).toFixed(0)}%</span>
                     </div>
-                  </div>
-                </div>
-              )}
-
-              {/* Agent信号概览 */}
-              {finalDecision.agent_signals && finalDecision.agent_signals.length > 0 && (
-                <div className="p-3 rounded-lg border bg-muted/20">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs font-medium">信号概览</span>
-                    <span className="text-[10px] text-muted-foreground">点击上方Agent卡片查看详情</span>
-                  </div>
-                  <div className="flex flex-wrap gap-2">
-                    {finalDecision.agent_signals.map((signal, index) => {
-                      const agentId = AGENT_NAME_MAP[signal.agent_name] || signal.agent_name
-                      const agentData = AGENTS.find(a => a.id === agentId)
-
-                      return (
-                        <div 
-                          key={index} 
-                          className="flex items-center gap-1.5 text-xs px-2 py-1 rounded-full bg-muted/50"
-                        >
-                          {agentData && (
-                            <div className={cn("w-4 h-4 rounded-full flex items-center justify-center", agentData.color)}>
-                              <agentData.icon className="h-2.5 w-2.5 text-white" />
-                            </div>
-                          )}
-                          <span className="text-muted-foreground">{agentData?.name?.replace('分析师', '').replace('师', '').replace('员', '') || signal.agent_name}</span>
-                          <span className={cn("font-medium",
-                            signal.signal === 'bullish' ? "text-red-500" :
-                            signal.signal === 'bearish' ? "text-green-500" : "text-yellow-500"
-                          )}>
-                            {(signal.confidence * 100).toFixed(0)}%
-                          </span>
-                        </div>
-                      )
-                    })}
                   </div>
                 </div>
               )}

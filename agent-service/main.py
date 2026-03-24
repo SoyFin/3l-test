@@ -29,6 +29,7 @@ import argparse
 import uuid
 import threading
 import logging
+import json
 from datetime import datetime, timedelta
 from typing import Dict, Any, Optional
 
@@ -302,12 +303,199 @@ def run_analysis(
         else:
             decision = {"action": "hold", "reasoning": "未获取到最终决策"}
         
+        # 从工作流状态中收集各个 Agent 的分析结果
+        agent_signals = []
+        agent_outputs = {}
+
+        # Agent 名称映射（从消息名称 -> 前端期望名称）
+        AGENT_NAME_MAP = {
+            "market_data_agent": "market_data",
+            "technical_analyst_agent": "technical_analysis",
+            "fundamentals_agent": "fundamental_analysis",
+            "sentiment_agent": "sentiment_analysis",
+            "valuation_agent": "valuation_analysis",
+            "researcher_bull_agent": "bull_researcher",
+            "researcher_bear_agent": "bear_researcher",
+            "debate_room_agent": "debate_room",
+            "risk_management_agent": "risk_management",
+            "portfolio_management_agent": "portfolio_management",
+        }
+
+        def format_reasoning_to_text(reasoning, agent_type="general"):
+            """将reasoning对象格式化为可读的中文文本"""
+            if not reasoning:
+                return ""
+
+            if isinstance(reasoning, str):
+                return reasoning
+
+            if isinstance(reasoning, dict):
+                lines = []
+
+                # 基本面分析格式
+                if "profitability_signal" in reasoning:
+                    for key, value in reasoning.items():
+                        if isinstance(value, dict) and "signal" in value:
+                            signal_emoji = {"bullish": "📈", "bearish": "📉", "neutral": "➖"}.get(value.get("signal", "neutral"), "➖")
+                            lines.append(f"{signal_emoji} {key.replace('_signal', '').replace('_', ' ').title()}: {value.get('details', '')}")
+
+                # 技术分析格式 (strategy_signals)
+                elif "strategy_signals" in reasoning:
+                    for strategy, data in reasoning.get("strategy_signals", {}).items():
+                        if isinstance(data, dict):
+                            signal_emoji = {"bullish": "📈", "bearish": "📉", "neutral": "➖"}.get(data.get("signal", "neutral"), "➖")
+                            conf = data.get("confidence", "50%")
+                            lines.append(f"{signal_emoji} {strategy.replace('_', ' ').title()}: {conf} 置信度")
+
+                # 辩论室格式
+                elif "debate_summary" in reasoning:
+                    for item in reasoning.get("debate_summary", []):
+                        if item.startswith("+"):
+                            lines.append(f"🟢 {item[1:].strip()}")
+                        elif item.startswith("-"):
+                            lines.append(f"🔴 {item[1:].strip()}")
+                        else:
+                            lines.append(item)
+
+                # 其他字典格式
+                else:
+                    for key, value in reasoning.items():
+                        if isinstance(value, dict):
+                            value_str = json.dumps(value, ensure_ascii=False)
+                        else:
+                            value_str = str(value)
+                        # 简化键名
+                        key_display = key.replace("_", " ").title()
+                        lines.append(f"• {key_display}: {value_str}")
+
+                return "\n".join(lines)
+
+            return str(reasoning)
+
+        # 遍历所有消息，提取各个 Agent 的输出
+        for msg in final_state.get("messages", []):
+            if hasattr(msg, 'name') and msg.name:
+                agent_name = msg.name
+
+                if agent_name in AGENT_NAME_MAP:
+                    try:
+                        content = json.loads(msg.content) if isinstance(msg.content, str) else msg.content
+                        mapped_name = AGENT_NAME_MAP[agent_name]
+
+                        # 特殊处理 market_data_agent
+                        if agent_name == "market_data_agent":
+                            agent_signals.append({
+                                "agent_name": "market_data",
+                                "signal": "neutral",
+                                "confidence": 1.0,
+                                "summary": f"已收集{content.get('ticker', '股票')}的市场数据",
+                                "reasoning": f"数据收集完成: 价格历史、财务指标、市场数据均已获取"
+                            })
+                            continue
+
+                        # 特殊处理 portfolio_management_agent
+                        if agent_name == "portfolio_management_agent":
+                            action = content.get("action", "hold")
+                            signal_map = {"buy": "bullish", "sell": "bearish", "hold": "neutral"}
+                            agent_signals.append({
+                                "agent_name": "portfolio_management",
+                                "signal": signal_map.get(action, "neutral"),
+                                "confidence": content.get("confidence", 0.5),
+                                "summary": f"最终决策: {action.upper()}",
+                                "reasoning": content.get("reasoning", "综合各Agent信号做出最终投资决策")
+                            })
+                            continue
+
+                        # 提取信号
+                        signal = content.get("signal", "neutral")
+                        if isinstance(signal, str) and signal not in ["bullish", "bearish", "neutral"]:
+                            signal = "neutral"
+
+                        # 提取置信度
+                        confidence = content.get("confidence", 0.5)
+                        if isinstance(confidence, str):
+                            if confidence.endswith("%"):
+                                confidence = float(confidence.replace("%", "")) / 100
+                            else:
+                                try:
+                                    confidence = float(confidence)
+                                except:
+                                    confidence = 0.5
+
+                        # 格式化 reasoning 为可读文本
+                        reasoning_raw = content.get("reasoning", {})
+                        reasoning_text = format_reasoning_to_text(reasoning_raw, mapped_name)
+
+                        # 提取摘要
+                        summary = content.get("summary", "")
+                        if not summary:
+                            if isinstance(reasoning_raw, str):
+                                summary = reasoning_raw[:100] + "..." if len(reasoning_raw) > 100 else reasoning_raw
+                            else:
+                                summary = reasoning_text[:100] + "..." if len(reasoning_text) > 100 else reasoning_text
+
+                        agent_signal = {
+                            "agent_name": mapped_name,
+                            "signal": signal,
+                            "confidence": confidence,
+                            "summary": summary,
+                            "reasoning": reasoning_text
+                        }
+
+                        # 避免重复
+                        if mapped_name not in [s["agent_name"] for s in agent_signals]:
+                            agent_signals.append(agent_signal)
+                            agent_outputs[mapped_name] = content
+
+                    except Exception as e:
+                        logger.warning(f"解析 {agent_name} 输出失败: {e}")
+        
+        # 如果 decision 中有 agent_signals，使用它（优先级更高）
+        if "agent_signals" in decision and decision["agent_signals"]:
+            # 确保格式正确
+            for signal in decision["agent_signals"]:
+                agent_name = signal.get("agent_name", "")
+                # 映射名称
+                mapped_name = AGENT_NAME_MAP.get(agent_name, agent_name)
+                
+                # 确保信号格式正确
+                sig = signal.get("signal", "neutral")
+                if sig not in ["bullish", "bearish", "neutral"]:
+                    sig = "neutral"
+                
+                # 确保置信度格式正确
+                conf = signal.get("confidence", 0.5)
+                if isinstance(conf, str):
+                    if conf.endswith("%"):
+                        conf = float(conf.replace("%", "")) / 100
+                    else:
+                        try:
+                            conf = float(conf)
+                        except:
+                            conf = 0.5
+                
+                # 检查是否已存在
+                existing_names = [s["agent_name"] for s in agent_signals]
+                if mapped_name not in existing_names:
+                    agent_signals.append({
+                        "agent_name": mapped_name,
+                        "signal": sig,
+                        "confidence": conf,
+                        "summary": signal.get("summary", ""),
+                        "reasoning": signal.get("reasoning", signal.get("summary", ""))
+                    })
+        
+        # 将 agent_signals 添加到 decision
+        decision["agent_signals"] = agent_signals
+        
         logger.info(f"--- 分析完成 Run ID: {run_id} ---")
+        logger.info(f"收集到 {len(agent_signals)} 个 Agent 信号: {[s['agent_name'] for s in agent_signals]}")
         
         return {
             "run_id": run_id,
             "ticker": ticker,
             "decision": decision,
+            "agent_signals": agent_signals,
             "reasoning": decision.get("reasoning", "")
         }
         
@@ -574,17 +762,19 @@ async def start_analysis(request: dict):
     """启动分析任务"""
     import asyncio
     from concurrent.futures import ThreadPoolExecutor
-    
+
     stock_code = request.get("stock_code", request.get("ticker"))
     stock_name = request.get("stock_name", "")
     modules = request.get("modules", [])
     force_refresh = request.get("force_refresh", False)
-    
+
     if not stock_code:
         raise HTTPException(status_code=400, detail="股票代码不能为空")
-    
+
     task_id = f"task_{uuid.uuid4().hex[:12]}"
-    
+    logger.info(f"=== 创建新任务 ===")
+    logger.info(f"task_id: {task_id}, stock_code: {stock_code}")
+
     # 初始化任务状态
     _task_store[task_id] = {
         "task_id": task_id,
@@ -598,6 +788,7 @@ async def start_analysis(request: dict):
         "created_at": datetime.now().isoformat(),
         "updated_at": datetime.now().isoformat()
     }
+    logger.info(f"任务已存储, 当前任务列表: {list(_task_store.keys())}")
     
     # 异步执行分析（使用线程池）
     def run_analysis_task():
@@ -656,8 +847,13 @@ async def get_analysis_status(task_id: str):
 @app.get("/api/analysis/result/{task_id}")
 async def get_analysis_result(task_id: str):
     """获取分析结果"""
+    logger.info(f"=== 结果API被调用 ===")
+    logger.info(f"请求的 task_id: {task_id}")
+    logger.info(f"_task_store 中的所有任务: {list(_task_store.keys())}")
+
     if task_id not in _task_store:
-        raise HTTPException(status_code=404, detail="任务不存在")
+        logger.error(f"任务不存在: {task_id}")
+        raise HTTPException(status_code=404, detail=f"任务不存在: {task_id}")
     
     task = _task_store[task_id]
     
@@ -669,12 +865,61 @@ async def get_analysis_result(task_id: str):
         }
     
     result = task["result"]
+    decision = result.get("decision", {})
+
+    # 从 result 中直接获取 agent_signals（现在由 run_analysis 提供）
+    agent_signals = result.get("agent_signals", [])
+    
+    # 如果 result 中没有，从 decision 中获取
+    if not agent_signals:
+        agent_signals = decision.get("agent_signals", [])
+    
+    logger.info(f"=== 返回结果 ===")
+    logger.info(f"agent_signals 数量: {len(agent_signals)}")
+    logger.info(f"agent_signals: {json.dumps(agent_signals, ensure_ascii=False)[:1000]}")
+    
+    # Agent 名称映射
+    AGENT_NAME_MAP = {
+        "technical_analyst": "technical_analysis",
+        "technical_analyst_agent": "technical_analysis",
+        "fundamentals": "fundamental_analysis",
+        "fundamentals_agent": "fundamental_analysis",
+        "sentiment": "sentiment_analysis",
+        "sentiment_agent": "sentiment_analysis",
+        "valuation": "valuation_analysis",
+        "valuation_agent": "valuation_analysis",
+        "researcher_bull": "bull_researcher",
+        "researcher_bull_agent": "bull_researcher",
+        "researcher_bear": "bear_researcher",
+        "researcher_bear_agent": "bear_researcher",
+        "debate_room": "debate_room",
+        "debate_room_agent": "debate_room",
+        "risk_manager": "risk_management",
+        "risk_management_agent": "risk_management",
+        "portfolio_management": "portfolio_management",
+        "portfolio_management_agent": "portfolio_management",
+    }
+    
+    # 确保每个 agent_signal 都有正确的名称
+    processed_signals = []
+    for signal in agent_signals:
+        agent_name = signal.get("agent_name", "")
+        mapped_name = AGENT_NAME_MAP.get(agent_name, agent_name)
+        processed_signals.append({
+            "agent_name": mapped_name,
+            "signal": signal.get("signal", "neutral"),
+            "confidence": signal.get("confidence", 0.5),
+            "summary": signal.get("summary", ""),
+            "reasoning": signal.get("reasoning", signal.get("summary", ""))
+        })
+    
     return {
         "task_id": task_id,
         "status": "completed",
         "stock_code": task["stock_code"],
         "stock_name": task["stock_name"],
-        "decision": result.get("decision", {}),
+        "decision": decision,
+        "agent_signals": processed_signals,
         "reasoning": result.get("reasoning", ""),
         "run_id": result.get("run_id", "")
     }

@@ -72,12 +72,14 @@ async def get_analysis_status(run_id: str):
         "status": run_info.status,
         "start_time": run_info.start_time,
         "end_time": run_info.end_time,
+        "is_complete": run_info.status in ["completed", "error"]
     }
 
     if task:
         if task.done():
             if task.exception():
                 status_data["error"] = str(task.exception())
+                status_data["status"] = "error"
             status_data["is_complete"] = True
         else:
             status_data["is_complete"] = False
@@ -105,13 +107,83 @@ async def get_analysis_result(run_id: str):
                 data={"status": run_info.status}
             )
 
+        # Agent 名称映射
+        AGENT_NAME_MAP = {
+            "market_data": "market_data",
+            "technical_analyst": "technical_analysis",
+            "technical_analyst_agent": "technical_analysis",
+            "fundamentals": "fundamental_analysis",
+            "fundamentals_agent": "fundamental_analysis",
+            "sentiment": "sentiment_analysis",
+            "sentiment_agent": "sentiment_analysis",
+            "valuation": "valuation_analysis",
+            "valuation_agent": "valuation_analysis",
+            "researcher_bull": "bull_researcher",
+            "researcher_bull_agent": "bull_researcher",
+            "researcher_bear": "bear_researcher",
+            "researcher_bear_agent": "bear_researcher",
+            "debate_room": "debate_room",
+            "debate_room_agent": "debate_room",
+            "risk_manager": "risk_management",
+            "risk_management_agent": "risk_management",
+            "portfolio_management": "portfolio_management",
+            "portfolio_management_agent": "portfolio_management",
+        }
+
         agent_results = {}
+        agent_signals = []
         ticker = ""
+        
+        # 收集所有 agent 的数据
         for agent_name in run_info.agents:
             agent_data = api_state.get_agent_data(agent_name)
+            mapped_name = AGENT_NAME_MAP.get(agent_name, agent_name)
+            
             if agent_data and "reasoning" in agent_data:
                 reasoning_data = safe_parse_json(agent_data["reasoning"])
-                agent_results[agent_name] = serialize_for_api(reasoning_data)
+                if reasoning_data:
+                    # 构建带中文摘要的 agent 数据
+                    signal = reasoning_data.get("signal", "neutral")
+                    confidence = reasoning_data.get("confidence", "0%")
+                    
+                    # 处理置信度格式
+                    if isinstance(confidence, str):
+                        if confidence.endswith("%"):
+                            confidence_val = float(confidence.replace("%", "")) / 100
+                        else:
+                            try:
+                                confidence_val = float(confidence)
+                            except:
+                                confidence_val = 0.5
+                    else:
+                        confidence_val = float(confidence) if confidence else 0.5
+                    
+                    # 获取或生成中文摘要
+                    summary = reasoning_data.get("summary", "")
+                    reasoning_text = reasoning_data.get("reasoning", "")
+                    
+                    if not summary and reasoning_text:
+                        # 如果没有 summary，用 reasoning 的前100字作为摘要
+                        summary = reasoning_text[:100] + "..." if len(reasoning_text) > 100 else reasoning_text
+                    
+                    agent_result = {
+                        "signal": signal,
+                        "confidence": confidence_val,
+                        "summary": summary,
+                        "reasoning": reasoning_text,
+                        **serialize_for_api(reasoning_data)
+                    }
+                    
+                    agent_results[agent_name] = agent_result
+                    
+                    # 添加到 agent_signals 列表
+                    if mapped_name not in ["market_data", "portfolio_management"]:
+                        agent_signals.append({
+                            "agent_name": mapped_name,
+                            "signal": signal,
+                            "confidence": confidence_val,
+                            "summary": summary
+                        })
 
             if agent_name == "market_data" and agent_data and "output_state" in agent_data:
                 try:
@@ -121,6 +193,7 @@ async def get_analysis_result(run_id: str):
                 except Exception:
                     pass
 
+        # 获取最终决策
         final_decision = None
         portfolio_data = api_state.get_agent_data("portfolio_management")
         if portfolio_data and "output_state" in portfolio_data:
@@ -134,12 +207,29 @@ async def get_analysis_result(run_id: str):
             except Exception as e:
                 logger.error(f"Error parsing final decision: {str(e)}")
 
+        # 如果 final_decision 中有 agent_signals，使用它；否则用我们构建的
+        if final_decision and "agent_signals" in final_decision:
+            # 确保每个 signal 都有 summary
+            for signal in final_decision["agent_signals"]:
+                if "summary" not in signal or not signal["summary"]:
+                    agent_name = signal.get("agent_name", "")
+                    # 从 agent_results 中查找对应的 summary
+                    for orig_name, result in agent_results.items():
+                        mapped = AGENT_NAME_MAP.get(orig_name, orig_name)
+                        if mapped == agent_name:
+                            signal["summary"] = result.get("summary", "")
+                            break
+            agent_signals = final_decision["agent_signals"]
+
         result_data = {
             "run_id": run_id,
             "ticker": ticker,
+            "stock_code": ticker,
             "completion_time": run_info.end_time,
+            "decision": serialize_for_api(final_decision),
             "final_decision": serialize_for_api(final_decision),
-            "agent_results": agent_results
+            "agent_results": agent_results,
+            "agent_signals": agent_signals
         }
 
         return ApiResponse(data=result_data)
