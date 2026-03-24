@@ -145,3 +145,116 @@
 2026-03-20 21:21:33 - openrouter_config - ERROR - ✗ API调用失败: HTTP 404
 2026-03-20 21:21:33 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=True
 2026-03-20 21:21:33 - openrouter_config - ERROR - ✗ API调用失败: HTTP 404
+2026-03-23 20:26:41 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-23 20:26:41 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-23 20:26:41 - openrouter_config - WARNING - ==================================================
+2026-03-23 20:26:41 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-23 20:26:41 - openrouter_config - WARNING - 请检查：
+2026-03-23 20:26:41 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-23 20:26:41 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-23 20:26:41 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-23 20:26:41 - openrouter_config - WARNING - ==================================================
+2026-03-23 20:26:41 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-23 22:10:27 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-23 22:46:53 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-24 09:09:30 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=False
+2026-03-24 09:09:30 - openrouter_config - WARNING - _ai_config 为空，检查环境变量...
+2026-03-24 09:09:30 - openrouter_config - WARNING - ==================================================
+2026-03-24 09:09:30 - openrouter_config - WARNING - 【警告】未配置AI，使用模拟客户端
+2026-03-24 09:09:30 - openrouter_config - WARNING - 请检查：
+2026-03-24 09:09:30 - openrouter_config - WARNING - 1. 前端是否正确设置了API Key
+2026-03-24 09:09:30 - openrouter_config - WARNING - 2. 是否删除了Python缓存（__pycache__）
+2026-03-24 09:09:30 - openrouter_config - WARNING - 3. 是否重启了后端服务
+2026-03-24 09:09:30 - openrouter_config - WARNING - ==================================================
+2026-03-24 09:09:30 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=False
+2026-03-24 09:11:12 - openrouter_config - INFO - AI配置已更新，默认提供商: zhipu
+2026-03-24 09:11:47 - openrouter_config - INFO - 【get_client】被调用，当前 _client=False, _ai_config=True
+2026-03-24 09:11:47 - openrouter_config - INFO - 检查配置: provider=zhipu, has_key=True
+2026-03-24 09:11:47 - openrouter_config - INFO - ✓ 使用平台AI客户端 (zhipu)
+2026-03-24 09:11:47 - openrouter_config - ERROR - ✗ API调用失败: HTTP 404
+2026-03-24 09:11:47 - openrouter_config - INFO - 【get_client】被调用，当前 _client=True, _ai_config=True
+2026-03-24 09:11:47 - openrouter_config - ERROR - ✗ API调用失败: HTTP 404
+2026-03-24 09:21:34 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=False
+2026-03-24 09:21:34 - openrouter_config - WARNING - _ai_config is empty, checking environment variables...
+2026-03-24 09:21:34 - openrouter_config - WARNING - ==================================================
+2026-03-24 09:21:34 - openrouter_config - WARNING - [WARNING] No AI configured, using mock client
+2026-03-24 09:21:34 - openrouter_config - WARNING - Please check:
+2026-03-24 09:21:34 - openrouter_config - WARNING - 1. Is API Key correctly set in frontend?
+2026-03-24 09:21:34 - openrouter_config - WARNING - 2. Did you restart the backend service?
+2026-03-24 09:21:34 - openrouter_config - WARNING - ==================================================
+2026-03-24 09:21:34 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=False
+2026-03-24 09:38:11 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=False
+2026-03-24 09:38:12 - openrouter_config - WARNING - ==================================================
+2026-03-24 09:38:12 - openrouter_config - WARNING - [WARNING] No AI configured, using mock client
+2026-03-24 09:38:12 - openrouter_config - WARNING - Please check:
+2026-03-24 09:38:12 - openrouter_config - WARNING - 1. Is API Key correctly set in frontend?
+2026-03-24 09:38:12 - openrouter_config - WARNING - 2. Did you restart the backend service?
+2026-03-24 09:38:12 - openrouter_config - WARNING - ==================================================
+2026-03-24 09:38:12 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=False
+2026-03-24 09:40:05 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 09:40:09 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 09:40:32 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=True
+2026-03-24 09:40:32 - openrouter_config - INFO - Config check: provider=zhipu, has_key=True
+2026-03-24 09:40:32 - openrouter_config - INFO - ✓ Using direct AI client (zhipu)
+2026-03-24 09:40:32 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 09:40:32 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 09:40:46 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 09:40:46 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=True
+2026-03-24 09:40:46 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 09:40:46 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 09:40:59 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 09:54:54 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 09:55:39 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=True
+2026-03-24 09:55:39 - openrouter_config - INFO - Config check: provider=zhipu, has_key=True
+2026-03-24 09:55:39 - openrouter_config - INFO - ✓ Using direct AI client (zhipu)
+2026-03-24 09:55:39 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 09:55:39 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 09:55:44 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 09:55:44 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=True
+2026-03-24 09:55:44 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 09:55:44 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 09:55:56 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:04:12 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 10:04:59 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=True
+2026-03-24 10:04:59 - openrouter_config - INFO - Config check: provider=zhipu, has_key=True
+2026-03-24 10:04:59 - openrouter_config - INFO - ✓ Using direct AI client (zhipu)
+2026-03-24 10:04:59 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:04:59 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:05:09 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:05:09 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=True
+2026-03-24 10:05:09 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:05:09 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:05:25 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:06:23 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 10:07:03 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=True
+2026-03-24 10:07:03 - openrouter_config - INFO - Config check: provider=zhipu, has_key=True
+2026-03-24 10:07:03 - openrouter_config - INFO - ✓ Using direct AI client (zhipu)
+2026-03-24 10:07:03 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:07:03 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:07:13 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:07:13 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=True
+2026-03-24 10:07:13 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:07:13 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:07:28 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:16:39 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 10:17:23 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=True
+2026-03-24 10:17:23 - openrouter_config - INFO - Config check: provider=zhipu, has_key=True
+2026-03-24 10:17:23 - openrouter_config - INFO - ✓ Using direct AI client (zhipu)
+2026-03-24 10:17:23 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:17:23 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:17:32 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:17:32 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=True
+2026-03-24 10:17:32 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:17:32 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:17:47 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:29:11 - openrouter_config - INFO - AI config updated, default provider: zhipu
+2026-03-24 10:29:49 - openrouter_config - INFO - [get_client] called, current _client=False, _ai_config=True
+2026-03-24 10:29:49 - openrouter_config - INFO - Config check: provider=zhipu, has_key=True
+2026-03-24 10:29:49 - openrouter_config - INFO - ✓ Using direct AI client (zhipu)
+2026-03-24 10:29:49 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:29:49 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:30:00 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-24 10:30:00 - openrouter_config - INFO - [get_client] called, current _client=True, _ai_config=True
+2026-03-24 10:30:00 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
+2026-03-24 10:30:00 - openrouter_config - INFO - Model: glm-4-flash
+2026-03-24 10:30:17 - openrouter_config - INFO - ✓ zhipu API call successful

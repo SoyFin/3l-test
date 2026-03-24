@@ -1141,3 +1141,786 @@ Getting price history for 002498...
 2026-03-20 21:21:32 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
 2026-03-20 21:21:33 - api - INFO - ✓ 从历史价格获取最新数据
 2026-03-20 21:21:33 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 20:25:21 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-23 20:25:21 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 20:25:21 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 20:25:21 - api - INFO - ✓ [东方财富] 成功 241 条
+2026-03-23 20:25:21 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 20:25:21 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-23 20:25:21 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 20:26:13 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-23 20:26:14 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 20:26:16 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 20:26:17 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 20:26:17 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 20:26:17 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-23 20:26:18 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 20:26:19 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 20:26:20 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 20:26:20 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 20:26:20 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-23 20:26:20 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-23 20:26:21 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 20:26:21 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 20:26:21 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-23 20:26:21 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 20:26:21 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 20:26:21 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 20:26:22 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-23 20:26:22 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 20:26:24 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-23 20:26:25 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 20:26:25 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-23 20:26:26 - api - INFO - ✓ [腾讯] 成功 241 条
+2026-03-23 20:26:26 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-23 20:26:26 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 20:26:26 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-23 20:26:26 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 20:26:26 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 20:26:27 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 20:26:27 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 20:26:27 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 20:26:29 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 20:26:31 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 20:26:32 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 20:26:32 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 20:26:32 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-23 20:26:33 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 20:26:34 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 20:26:35 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 20:26:35 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 20:26:35 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-23 20:26:35 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 20:26:37 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 20:26:38 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 20:26:40 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 20:26:40 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 20:26:41 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 20:26:41 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 22:01:34 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-23 22:01:34 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 22:01:34 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 22:01:34 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:01:35 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-23 22:01:35 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:01:37 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-23 22:01:38 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:01:38 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-23 22:01:39 - api - INFO - ✓ [腾讯] 成功 241 条
+2026-03-23 22:01:39 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-23 22:01:39 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 22:01:39 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-23 22:01:39 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:02:21 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-23 22:02:22 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:02:24 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 22:02:25 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:02:25 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 22:02:25 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-23 22:02:26 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 22:02:27 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:02:29 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 22:02:29 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 22:02:29 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-23 22:02:29 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-23 22:02:30 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:02:30 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 22:03:12 - api - INFO - 获取历史价格: SZ001896 -> 001896
+2026-03-23 22:03:12 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 22:03:12 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 22:03:12 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:03:13 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-23 22:03:13 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:03:15 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-23 22:03:16 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:03:16 - api - INFO - [腾讯] 获取历史价格 sz001896...
+2026-03-23 22:03:17 - api - INFO - ✓ [腾讯] 成功 241 条
+2026-03-23 22:03:17 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-23 22:03:17 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 22:03:17 - api - INFO - 获取财务指标: SZ001896 -> 001896
+2026-03-23 22:03:17 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:03:17 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:03:18 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 22:03:18 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:03:18 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 22:03:20 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:03:23 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 22:03:25 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:03:25 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 22:03:25 - api - INFO - 获取财务报表: SZ001896 -> 001896
+2026-03-23 22:03:26 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 22:03:27 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:03:28 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 22:03:28 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 22:03:28 - api - INFO - 获取市场数据: SZ001896 -> 001896
+2026-03-23 22:03:28 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:03:28 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:03:29 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 22:03:30 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:03:30 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 22:03:31 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:03:31 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 22:04:19 - api - INFO - 获取历史价格: SZ002015 -> 002015
+2026-03-23 22:04:19 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 22:04:19 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 22:04:19 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:04:20 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-23 22:04:21 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:04:23 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-23 22:04:23 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:04:23 - api - INFO - [腾讯] 获取历史价格 sz002015...
+2026-03-23 22:04:24 - api - INFO - ✓ [腾讯] 成功 241 条
+2026-03-23 22:04:24 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-23 22:04:24 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 22:04:24 - api - INFO - 获取财务指标: SZ002015 -> 002015
+2026-03-23 22:04:24 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:04:25 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:04:26 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 22:04:26 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:04:26 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 22:04:27 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:04:28 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 22:04:29 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:04:29 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 22:04:29 - api - INFO - 获取财务报表: SZ002015 -> 002015
+2026-03-23 22:04:33 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 22:04:34 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:04:35 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 22:04:35 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 22:04:35 - api - INFO - 获取市场数据: SZ002015 -> 002015
+2026-03-23 22:04:35 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:04:35 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:04:36 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 22:04:36 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:04:36 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 22:04:37 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:04:37 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 22:45:27 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-23 22:45:27 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 22:45:27 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 22:45:28 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:45:29 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-23 22:45:29 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:45:31 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-23 22:45:31 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:45:31 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-23 22:45:32 - api - INFO - ✓ [腾讯] 成功 241 条
+2026-03-23 22:45:32 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-23 22:45:32 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 22:45:32 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-23 22:45:32 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:45:59 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-23 22:46:00 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:46:01 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 22:46:02 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:46:02 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 22:46:02 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-23 22:46:03 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 22:46:04 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:46:04 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 22:46:04 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 22:46:04 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-23 22:46:04 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-23 22:46:05 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:46:05 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-23 22:46:59 - api - INFO - 获取历史价格: SZ001896 -> 001896
+2026-03-23 22:46:59 - api - INFO - 日期范围: 2025-03-22 ~ 2026-03-22
+2026-03-23 22:46:59 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-23 22:46:59 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:47:00 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-23 22:47:01 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:47:03 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-23 22:47:03 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-23 22:47:03 - api - INFO - [腾讯] 获取历史价格 sz001896...
+2026-03-23 22:47:04 - api - INFO - ✓ [腾讯] 成功 241 条
+2026-03-23 22:47:04 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-23 22:47:04 - api - INFO - ✓ 历史价格处理完成 (241 条)
+2026-03-23 22:47:04 - api - INFO - 获取财务指标: SZ001896 -> 001896
+2026-03-23 22:47:04 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:47:04 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:47:05 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 22:47:05 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:47:05 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 22:47:06 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:47:07 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-23 22:47:08 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:47:08 - api - INFO - ✓ 财务指标构建完成
+2026-03-23 22:47:08 - api - INFO - 获取财务报表: SZ001896 -> 001896
+2026-03-23 22:47:10 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-23 22:47:10 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-23 22:47:11 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-23 22:47:11 - api - INFO - ✓ 财务报表处理完成
+2026-03-23 22:47:11 - api - INFO - 获取市场数据: SZ001896 -> 001896
+2026-03-23 22:47:11 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-23 22:47:11 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:47:12 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-23 22:47:12 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-23 22:47:12 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-23 22:47:13 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-23 22:47:13 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:08:33 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:08:33 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:08:33 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:08:34 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:08:35 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:08:35 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:08:37 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:08:37 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:08:37 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:08:38 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:08:38 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:08:38 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:08:38 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:08:38 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:09:12 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 09:09:13 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:09:14 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:09:15 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:09:15 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:09:15 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:09:15 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:09:16 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:09:17 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:09:17 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:09:17 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:09:17 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:09:18 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:09:18 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:09:18 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:09:18 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:09:18 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:09:18 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:09:19 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:09:19 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:09:21 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:09:22 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:09:22 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:09:23 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:09:23 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:09:23 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:09:23 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:09:23 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:09:24 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:09:25 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:09:26 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:09:26 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:09:26 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:09:27 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:09:28 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:09:28 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:09:28 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:09:28 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:09:28 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:09:30 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:09:30 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:11:20 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:11:20 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:11:20 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:11:20 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:11:21 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:11:21 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:11:23 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:11:23 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:11:23 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:11:25 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:11:25 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:11:25 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:11:25 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:11:25 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:11:25 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:26 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:11:26 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:26 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:11:27 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:11:28 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:11:29 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:11:29 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:11:29 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:11:30 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:11:30 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:11:31 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:11:31 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:11:31 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:11:31 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:11:31 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:32 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:11:32 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:32 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:11:33 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:11:33 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:11:33 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:11:33 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:11:33 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:11:33 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:11:34 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:11:35 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:11:37 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:11:37 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:11:37 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:11:38 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:11:38 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:11:38 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:11:38 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:11:38 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:11:38 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:39 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:11:39 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:39 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:11:40 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:11:41 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:11:42 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:11:42 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:11:42 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:11:43 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:11:44 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:11:44 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:11:44 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:11:44 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:11:44 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:11:44 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:45 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:11:46 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:11:46 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:11:47 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:11:47 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:20:53 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:20:53 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:20:53 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:20:54 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:20:55 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:20:55 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:20:57 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:20:57 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:20:57 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:20:58 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:20:58 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:20:58 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:20:59 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:20:59 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:21:18 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 09:21:19 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:21:20 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:21:21 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:21:21 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:21:21 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:21:22 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:21:22 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:21:23 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:21:23 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:21:23 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:21:23 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:21:24 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:21:24 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:21:24 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:21:24 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:21:24 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:21:24 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:21:25 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:21:25 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:21:27 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:21:27 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:21:27 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:21:29 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:21:29 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:21:29 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:21:29 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:21:29 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:21:30 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:21:30 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:21:31 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:21:31 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:21:31 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:21:32 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:21:32 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:21:33 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:21:33 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:21:33 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:21:33 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:21:34 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:21:34 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:37:00 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:37:00 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:37:00 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:37:00 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:37:01 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:37:01 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:37:03 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:37:03 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:37:03 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:37:05 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:37:05 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:37:05 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:37:05 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:37:05 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:37:34 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:37:35 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:37:51 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:37:51 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:37:52 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:37:53 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:37:54 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:37:54 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:37:54 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:37:55 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:37:55 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:37:56 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:37:56 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:37:56 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:37:56 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:37:56 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:37:57 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:37:57 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:37:57 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:37:58 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:37:58 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:37:59 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:37:59 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:37:59 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:37:59 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:38:00 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:38:00 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:38:02 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:38:02 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:38:02 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:38:03 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:38:03 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:38:03 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:38:03 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:38:03 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:38:04 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:38:05 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:38:05 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:38:05 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:38:06 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:38:07 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:38:07 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:38:07 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:38:07 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:38:08 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:38:09 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:38:10 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:38:10 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:38:10 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:38:10 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:38:10 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:38:11 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:38:11 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:38:11 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:38:11 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:38:11 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:40:11 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:40:11 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:40:11 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:40:11 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:40:12 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:40:13 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:40:15 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 09:40:15 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:40:15 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 09:40:16 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 09:40:16 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 09:40:16 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:40:16 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:40:16 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:40:16 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:17 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:40:17 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:17 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:40:18 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:40:19 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:40:20 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:40:20 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:40:20 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:40:21 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:40:22 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:40:22 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:40:22 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:40:22 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:40:22 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:40:22 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:23 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:40:23 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:23 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:40:24 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:40:24 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:40:24 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:40:24 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:40:24 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:40:24 - api - INFO - ✓ [东方财富] 成功 242 条
+2026-03-24 09:40:24 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:40:24 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:40:24 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:40:25 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:26 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:40:26 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:26 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:40:26 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:40:27 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:40:28 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:40:28 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:40:28 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:40:28 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:40:29 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:40:29 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:40:29 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:40:29 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:40:29 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:40:29 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:30 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:40:31 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:40:31 - api - WARNING - 实时行情获取失败，将使用历史价格最新数据
+2026-03-24 09:40:32 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:40:32 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:54:50 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:54:50 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:54:50 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:54:50 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:54:51 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:54:52 - api - INFO - ✓ [东方财富] 成功 242 条
+2026-03-24 09:54:52 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:54:52 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:54:52 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 09:55:07 - api - WARNING - [新浪] 实时行情失败: Can not decode value starting with character '<'
+2026-03-24 09:55:08 - api - INFO - [新浪] 获取实时行情 (第2次)...
+2026-03-24 09:55:25 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 09:55:26 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:55:27 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:55:28 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:55:28 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:55:28 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:55:29 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:55:30 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:55:30 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:55:30 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:55:30 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:55:30 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:55:31 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:55:31 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 09:55:31 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 09:55:31 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 09:55:31 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 09:55:32 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 09:55:33 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 09:55:33 - api - INFO - ✓ [东方财富] 成功 242 条
+2026-03-24 09:55:33 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 09:55:33 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 09:55:33 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:55:34 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:55:35 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 09:55:36 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:55:36 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 09:55:36 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 09:55:36 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 09:55:37 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 09:55:37 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 09:55:38 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 09:55:38 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 09:55:38 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 09:55:39 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 09:55:39 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:04:09 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:04:09 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:04:09 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:04:09 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:04:10 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 10:04:10 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:04:12 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 10:04:12 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:04:12 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 10:04:14 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 10:04:14 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 10:04:14 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:04:14 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:04:14 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 10:04:42 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 10:04:43 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:04:44 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:04:45 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:04:45 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:04:45 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:04:46 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:04:46 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:04:47 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:04:47 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:04:47 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:04:47 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:04:48 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:04:48 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:04:48 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:04:48 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:04:48 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:04:48 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:04:49 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 10:04:50 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:04:52 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 10:04:52 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:04:52 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 10:04:53 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 10:04:53 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 10:04:53 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:04:53 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:04:53 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:04:54 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:04:55 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:04:56 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:04:56 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:04:56 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:04:57 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:04:57 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:04:58 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:04:58 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:04:58 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:04:58 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:04:59 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:04:59 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:06:25 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:06:25 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:06:25 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:06:25 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:06:26 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 10:06:26 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:06:28 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 10:06:29 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:06:29 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 10:06:30 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 10:06:30 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 10:06:30 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:06:30 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:06:30 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 10:06:46 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 10:06:47 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:06:48 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:06:49 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:06:49 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:06:49 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:06:50 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:06:50 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:06:51 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:06:51 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:06:51 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:06:51 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:06:51 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:06:51 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:06:51 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:06:51 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:06:51 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:06:52 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:06:53 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 10:06:53 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:06:55 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 10:06:55 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:06:55 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 10:06:57 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 10:06:57 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 10:06:57 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:06:57 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:06:57 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:06:58 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:06:59 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:07:00 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:07:00 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:07:00 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:07:01 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:07:01 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:07:02 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:07:02 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:07:02 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:07:02 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:07:03 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:07:03 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:16:41 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:16:41 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:16:41 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:16:41 - api - INFO - ✓ [东方财富] 成功 242 条
+2026-03-24 10:16:41 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:16:41 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:16:41 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 10:17:06 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 10:17:07 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:17:08 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:17:08 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:17:08 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:17:08 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:17:09 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:17:10 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:17:11 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:17:11 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:17:11 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:17:11 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:17:12 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:17:12 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:17:12 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:17:12 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:17:12 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:17:12 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:17:13 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 10:17:13 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:17:15 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 10:17:16 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:17:16 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 10:17:17 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 10:17:17 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 10:17:17 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:17:17 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:17:17 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:17:18 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:17:19 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:17:20 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:17:20 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:17:20 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:17:21 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:17:21 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:17:22 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:17:22 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:17:22 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:17:22 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:17:23 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:17:23 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:29:08 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:29:08 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:29:08 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:29:09 - api - INFO - ✓ [东方财富] 成功 242 条
+2026-03-24 10:29:09 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:29:09 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:29:09 - api - INFO - [新浪] 获取实时行情 (第1次)...
+2026-03-24 10:29:32 - api - INFO - ✓ [新浪] 实时行情成功
+2026-03-24 10:29:33 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:29:34 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:29:35 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:29:35 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:29:35 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:29:36 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:29:37 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:29:37 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:29:37 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:29:37 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:29:37 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:29:38 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:29:38 - api - INFO - ✓ 市场数据从历史价格获取成功
+2026-03-24 10:29:38 - api - INFO - 获取历史价格: SH600396 -> 600396
+2026-03-24 10:29:38 - api - INFO - 日期范围: 2025-03-23 ~ 2026-03-23
+2026-03-24 10:29:38 - api - INFO - [东方财富] 获取历史价格 (第1次)...
+2026-03-24 10:29:39 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:29:40 - api - INFO - [东方财富] 获取历史价格 (第2次)...
+2026-03-24 10:29:40 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:29:42 - api - INFO - [东方财富] 获取历史价格 (第3次)...
+2026-03-24 10:29:42 - api - WARNING - [东方财富] 失败: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-03-24 10:29:42 - api - INFO - [腾讯] 获取历史价格 sh600396...
+2026-03-24 10:29:43 - api - INFO - ✓ [腾讯] 成功 242 条
+2026-03-24 10:29:43 - api - WARNING - 缺少列: volume，可用列: ['date', 'open', 'close', 'high', 'low', 'amount']
+2026-03-24 10:29:43 - api - INFO - ✓ 历史价格处理完成 (242 条)
+2026-03-24 10:29:43 - api - INFO - 获取财务指标: SH600396 -> 600396
+2026-03-24 10:29:43 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:29:44 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:29:45 - api - INFO - ✓ 财务指标获取成功 (7 条)
+2026-03-24 10:29:46 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:29:46 - api - INFO - ✓ 财务指标构建完成
+2026-03-24 10:29:46 - api - INFO - 获取财务报表: SH600396 -> 600396
+2026-03-24 10:29:47 - api - INFO - ✓ [新浪] 资产负债表成功
+2026-03-24 10:29:47 - api - INFO - ✓ [新浪] 利润表成功
+2026-03-24 10:29:48 - api - INFO - ✓ [新浪] 现金流量表成功
+2026-03-24 10:29:48 - api - INFO - ✓ 财务报表处理完成
+2026-03-24 10:29:48 - api - INFO - 获取市场数据: SH600396 -> 600396
+2026-03-24 10:29:48 - api - INFO - [缓存] 使用缓存的实时行情数据
+2026-03-24 10:29:49 - api - INFO - ✓ 从历史价格获取最新数据
+2026-03-24 10:29:49 - api - INFO - ✓ 市场数据从历史价格获取成功

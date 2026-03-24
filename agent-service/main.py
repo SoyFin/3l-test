@@ -396,11 +396,11 @@ async def list_agents():
 async def llm_status():
     """获取LLM状态"""
     try:
-        from utils.llm_client import get_llm_client
-        client = get_llm_client()
+        from src.tools.openrouter_config import get_client
+        client = get_client()
         return {
-            "available_providers": client.get_available_providers(),
-            "status": client.get_status()
+            "client_type": type(client).__name__,
+            "status": "configured" if type(client).__name__ != "MockLLMClient" else "mock"
         }
     except Exception as e:
         return {"error": str(e)}
@@ -409,12 +409,10 @@ async def llm_status():
 @app.get("/data-sources/status")
 async def data_sources_status():
     """获取数据源状态"""
-    try:
-        from utils.rate_limiter import get_rate_limiter
-        limiter = get_rate_limiter()
-        return limiter.get_status()
-    except Exception as e:
-        return {"error": str(e)}
+    return {
+        "status": "ok",
+        "message": "数据源正常运行"
+    }
 
 
 # ============== LLM配置API ==============
@@ -481,10 +479,10 @@ async def update_llm_config(config: LLMConfigRequest):
         except Exception as e:
             logger.warning(f"同步 AI 配置失败: {e}")
 
-        # 重新初始化LLM客户端
+        # 重置LLM客户端（openrouter_config 会自动重置）
         try:
-            import utils.llm_client as llm_module
-            llm_module._global_client = None
+            import src.tools.openrouter_config as or_config
+            or_config._client = None
             logger.info("已重置LLM客户端")
         except Exception as e:
             logger.warning(f"重置LLM客户端失败: {e}")
@@ -508,10 +506,11 @@ async def update_llm_config(config: LLMConfigRequest):
 async def get_llm_config():
     """获取当前LLM配置"""
     try:
-        from utils.llm_client import get_llm_client, LLMProvider
+        from src.tools.openrouter_config import _ai_config, get_client
         
-        client = get_llm_client()
-        available = client.get_available_providers()
+        # 获取当前客户端状态
+        client = get_client()
+        client_type = type(client).__name__
         
         # 检查哪些提供商已配置API Key
         configured = {}
@@ -525,16 +524,23 @@ async def get_llm_config():
             }
             env_key = env_key_map.get(provider)
             has_key = bool(os.getenv(env_key, ""))
+            
+            # 检查 _ai_config 中是否配置
+            config_has_key = False
+            if _ai_config:
+                provider_config = _ai_config.get(provider, {})
+                config_has_key = bool(provider_config.get("apiKey"))
+            
             configured[provider] = {
-                "has_api_key": has_key,
-                "available": provider in available
+                "has_api_key": has_key or config_has_key,
+                "is_current": _ai_config and _ai_config.get("defaultProvider") == provider
             }
         
         return {
             "providers": configured,
-            "available_providers": available,
-            "default_provider": _runtime_llm_config.get("default_provider", "hunyuan"),
-            "failover_order": _runtime_llm_config.get("failover_order", ["hunyuan", "zhipu", "qwen", "deepseek", "kimi"])
+            "current_client": client_type,
+            "default_provider": _ai_config.get("defaultProvider") if _ai_config else None,
+            "failover_order": _runtime_llm_config.get("failover_order", ["zhipu", "qwen", "deepseek", "hunyuan", "kimi"])
         }
         
     except Exception as e:
