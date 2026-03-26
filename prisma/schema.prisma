@@ -128,3 +128,30 @@ model PolicyTask {
   createdAt       DateTime @default(now())
   updatedAt       DateTime @updatedAt
 }
+
+// 戴维斯双击 - 行业评分表
+model DavisIndustryScore {
+  id                String   @id @default(uuid())
+  industry          String
+  industryCode      String?
+  industryType      String   // value/cycle/consume/growth
+  weekDate          DateTime
+  totalScore        Float    @default(0)   // 综合得分(100分制)
+  earningsTurnScore Float    @default(0)   // 业绩拐点得分
+  valuationScore    Float    @default(0)   // 估值评分
+  supplyBarrierScore Float   @default(0)   // 供给壁垒得分
+  riskExcludeScore  Float    @default(0)   // 风险排除得分
+  logicChangeScore  Float    @default(0)   // 逻辑质变得分
+  momentumScore     Float    @default(0)   // 动量因子得分
+  northMoneyScore   Float    @default(0)   // 北向资金得分
+  weights           Json?                   // 权重配置
+  details           Json?                   // 详细分析数据
+  analysis          String?                 // AI分析摘要
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@unique([industry, weekDate])
+  @@index([weekDate])
+  @@index([totalScore])
+  @@index([industryType])
+}

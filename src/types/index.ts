@@ -93,3 +93,50 @@ export interface AIPlatform {
   icon?: string
   url: string
 }
+
+// 戴维斯双击评分项
+export interface DavisScoreItem {
+  id: string
+  industry: string
+  industryCode: string | null
+  industryType: 'value' | 'cycle' | 'consume' | 'growth'
+  weekDate: string
+  totalScore: number
+  earningsTurnScore: number      // 业绩拐点得分
+  valuationScore: number         // 估值评分
+  supplyBarrierScore: number     // 供给壁垒得分
+  riskExcludeScore: number       // 风险排除得分
+  logicChangeScore: number       // 逻辑质变得分
+  momentumScore: number          // 动量因子得分
+  northMoneyScore: number        // 北向资金得分
+  weights: Record<string, number> | null
+  details: Record<string, any> | null
+  analysis: string | null
+}
+
+// 戴维斯双击评分维度
+export interface DavisDimension {
+  key: string
+  name: string
+  weight: number
+  description: string
+}
+
+// 戴维斯双击评分维度列表
+export const DAVIS_DIMENSIONS: DavisDimension[] = [
+  { key: 'earningsTurnScore', name: '业绩拐点', weight: 0.25, description: '基于行业盈利周期判断' },
+  { key: 'valuationScore', name: '估值评分', weight: 0.20, description: 'PE/PB历史分位分析' },
+  { key: 'supplyBarrierScore', name: '供给壁垒', weight: 0.15, description: '行业进入壁垒分析' },
+  { key: 'riskExcludeScore', name: '风险排除', weight: 0.10, description: '行业风险指标排查' },
+  { key: 'logicChangeScore', name: '逻辑质变', weight: 0.15, description: '行业逻辑变化分析' },
+  { key: 'momentumScore', name: '动量因子', weight: 0.10, description: '涨跌幅趋势分析' },
+  { key: 'northMoneyScore', name: '北向资金', weight: 0.05, description: '外资流向分析' },
+]
+
+// 行业类型映射
+export const INDUSTRY_TYPE_NAMES: Record<string, string> = {
+  value: '价值型',
+  cycle: '周期型',
+  consume: '消费型',
+  growth: '成长型',
+}

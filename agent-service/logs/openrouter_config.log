@@ -500,3 +500,4 @@
 2026-03-24 20:12:41 - openrouter_config - INFO - Calling zhipu API: https://open.bigmodel.cn/api/paas/v4/chat/completions
 2026-03-24 20:12:41 - openrouter_config - INFO - Model: glm-4-flash
 2026-03-24 20:13:00 - openrouter_config - INFO - ✓ zhipu API call successful
+2026-03-25 22:15:13 - openrouter_config - INFO - AI config updated, default provider: zhipu
